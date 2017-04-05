@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FontAwesome/FontAwesome.woff2") format("woff2"), url("../fonts/FontAwesome/FontAwesome.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/GothamProBlack/GothamProBlack.woff2") format("woff2"), url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/GothamProMedium/GothamProMedium.woff2") format("woff2"), url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"); }
+
+@font-face {
+  font-family: "Meedori Sans Bold";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Meedori Sans Bold/Meedori Sans Bold.woff2") format("woff2"), url("../fonts/Meedori Sans Bold/Meedori Sans Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/RobotoRegular/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/RobotoBlack/RobotoBlack.woff2") format("woff2"), url("../fonts/RobotoBlack/RobotoBlack.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/RobotoBold/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/RobotoLight/RobotoLight.woff2") format("woff2"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/RobotoMedium/RobotoMedium.woff2") format("woff2"), url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoItalic";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/RobotoMediumItalic/RobotoMediumItalic.woff2") format("woff2"), url("../fonts/RobotoMediumItalic/RobotoMediumItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: "UniSansRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/UniSansRegular/UniSansRegular.woff2") format("woff2"), url("../fonts/UniSansRegular/UniSansRegular.woff") format("woff"); }

@@ -1,0 +1,17 @@
+@import "bourbon";
+
+@include font-face("FontAwesome", "../fonts/FontAwesome/FontAwesome", $file-formats: woff woff2);
+
+@include font-face("Gotham Pro", "../fonts/GothamProBlack/GothamProBlack", 900, $file-formats: woff woff2);
+@include font-face("Gotham Pro", "../fonts/GothamProMedium/GothamProMedium", 500, $file-formats: woff woff2);
+
+@include font-face("Meedori Sans Bold", "../fonts/Meedori Sans Bold/Meedori Sans Bold", 500, $file-formats: woff woff2);
+
+@include font-face("Roboto", "../fonts/RobotoRegular/RobotoRegular", 400, $file-formats: woff woff2);
+@include font-face("Roboto", "../fonts/RobotoBlack/RobotoBlack", 900, $file-formats: woff woff2);
+@include font-face("Roboto", "../fonts/RobotoBold/RobotoBold", 700, $file-formats: woff woff2);
+@include font-face("Roboto", "../fonts/RobotoLight/RobotoLight", 300, $file-formats: woff woff2);
+@include font-face("Roboto", "../fonts/RobotoMedium/RobotoMedium", 500, $file-formats: woff woff2);
+@include font-face("RobotoItalic", "../fonts/RobotoMediumItalic/RobotoMediumItalic", 500, $file-formats: woff woff2);
+
+@include font-face("UniSansRegular", "../fonts/UniSansRegular/UniSansRegular", $file-formats: woff woff2);

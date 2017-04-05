@@ -1,0 +1,241 @@
+@import "bourbon";
+@import "vars.scss";
+
+/* ============================ thanks pages =========================== */
+#modal_callback_ok{
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  .top{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    &:after {
+      content: ''; 
+      position: absolute;
+      left: 48%; bottom: -20px;
+      border: 10px solid transparent;
+      border-top: 10px solid #fff;
+    }
+    i{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      color: yellow;
+      border-radius: 50%;
+      background-color: #7dbaab;
+      box-sizing:border-box;
+      font-size: 28px;
+      margin: 0 auto;
+    }
+    h4{
+      font: 30px RobotoRegular,Arial,sans-serif;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+  }
+  .bottom{
+    background-color: #7dbaab;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    h3{
+      font: 30px RobotoRegular,Arial,sans-serif;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+
+/* ============================ form css =========================== */
+form{
+  .form_input{
+    .field {
+      display: block;
+      float: left;
+      position: relative;
+      overflow: hidden;
+      .allert{
+        display: block;
+        position: absolute;
+        z-index: 20;
+        top: 50%;
+        margin-top: -13px;
+        right: 13%;
+        color: #FF6565;
+        cursor: default;
+        &:hover{
+          span{
+            border : 1px solid #FF6565;
+            background : #fff;
+            display : inline;
+            position : absolute;
+            color : #4e4e4e;
+            right:24px;
+            top:-4px;
+            opacity: 1;
+          }
+        }
+        span{
+          display: none;
+          opacity: 0;
+          padding : 5px;
+          margin-left : 5px;
+          color:#000;
+          font-style:italic;
+          font-size: 14px;
+          border-radius: 4px;
+          min-width: 140px;
+          text-align: left;
+          transition: all .5s ease;
+        }
+      }
+      .error {
+        border: 1px solid red !important;
+      }
+      .error_tel ~ .allert span{
+        min-width: 205px;
+      }    
+      .error_email ~ .allert span{
+        min-width: 140px;
+      } 
+    }
+  }
+}
+
+/* ============================ input bottom =========================== */
+form{
+  .bar{
+    position:relative;
+    display:block;
+    width:100%;
+  }
+  .bar:before, .bar:after{
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#5264AE;
+    transition: all .2s ease;
+  }
+  .bar:before{
+    left:50%;
+  }
+  .bar:after{
+    right:50%;
+  }
+  input:focus ~ .bar:before, input:focus ~ .bar:after{
+    width:50%;
+  }
+}
+
+/* ============================ font-awesome =========================== */
+.fa-warning:before,.fa-exclamation-triangle:before {
+  content: "\f071";
+  font-family: FontAwesome;
+}
+.fa-check:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+}
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+  font-family: FontAwesome;
+}
+.fa-twitter:before {
+  content: "\f099";
+  font-family: FontAwesome;
+}
+.fa-feed:before,
+.fa-rss:before {
+  content: "\f09e";
+  font-family: FontAwesome;
+}
+.fa-google-plus:before {
+  content: "\f0d5";
+  font-family: FontAwesome;
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+  font-family: FontAwesome;
+}
+.fa-skype:before {
+  content: "\f17e";
+  font-family: FontAwesome;
+}
+.fa-vimeo:before {
+  content: "\f27d";
+  font-family: FontAwesome;
+}
+.fa-tumblr:before {
+  content: "\f173";
+  font-family: FontAwesome;
+}
+.fa-phone:before {
+  content: "\f095";
+  font-family: FontAwesome;
+}
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+  font-family: FontAwesome;
+}
+.fa-language:before {
+  content: "\f1ab";
+  font-family: FontAwesome;
+}
+.fa-long-arrow-right:before {
+  content: "\f178";
+  font-family: FontAwesome;
+}
+.fa-long-arrow-left:before {
+  content: "\f177";
+  font-family: FontAwesome;
+}
+.fa-angle-up:before {
+  content: "\f106";
+  font-family: FontAwesome;
+}
+.fa-chevron-down:before {
+  content: "\f078";
+  font-family: FontAwesome;
+}
+.fa-user-o:before {
+  content: "\f2c0";
+  font-family: FontAwesome;
+}
+.fa-calendar:before {
+  content: "\f073";
+  font-family: FontAwesome;
+}
+.fa-clock-o:before {
+  content: "\f017";
+  font-family: FontAwesome;
+}
+.fa-chevron-left:before {
+  content: "\f053";
+  font-family: FontAwesome;
+}
+.fa-refresh:before {
+  content: "\f021";
+  font-family: FontAwesome;
+}
+.fa-music:before {
+  content: "\f001";
+  font-family: FontAwesome;
+}
+.fa-home:before {
+  content: "\f015";
+  font-family: FontAwesome;
+}
+.fa-youtube:before {
+  content: "\f166";
+  font-family: FontAwesome;
+}
+.fa-print:before {
+  content: "\f02f";
+  font-family: FontAwesome;
+}
