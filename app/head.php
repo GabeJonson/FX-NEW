@@ -39,14 +39,12 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/main.css">
-	<!-- Load CSS Start -->
-	<!-- <script>loadCSS( "css/fonts.css?ver=1.0.0", false, "all" );</script> -->
-	<!-- <script>loadCSS( "css/header.css?ver=1.0.0", false, "all" );</script> -->
-	<!-- <script>loadCSS( "css/main.css?ver=1.0.0", false, "all" );</script> -->
-	<!-- Load CSS End -->
 
-	<!-- Load CSS Compiled without JS -->
-	<noscript>
-		<link rel="stylesheet" href="css/main.css">
-	</noscript>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#9c4baa">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#9c4baa">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#9c4baa">
+
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
