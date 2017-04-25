@@ -5561,12 +5561,12 @@ footer{
       box-sizing: border-box;
       padding-left: 5px;
       padding-right: 5px;
-      @include placeholder{
+      placeholder{
         font-size: 18px;
         font-family: "Roboto";
         color: rgb(0, 0, 0);
         text-align: left;
-      };
+      }
     }
     select{
       text-transform: uppercase;
@@ -6414,12 +6414,12 @@ footer{
       font-weight: 500;
       padding-left: 10px;
       padding-right: 10px;
-      @include placeholder{
+      placeholder{
         color: #929292;
         font-family: Roboto;
         font-size: 12px;
         font-weight: 500;
-      };
+      }
     }
     .account_validation_s2__form_span{
       color: #000000;
@@ -6509,7 +6509,7 @@ footer{
       font-weight: 500;
       display: inline-block;
       margin-left: 9px;
-      @include placeholder{
+      placeholder{
         color: #929292;
         font-family: Roboto;
         font-size: 12px;
