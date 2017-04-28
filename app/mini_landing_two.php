@@ -20,9 +20,9 @@
 			<span class="posadka_s1__h2">Fill out the fields below and get “The Guide For Successful Copy Trading On Forex” absolutely FREE OF CHARGE</span>
 			<form method="POST" class="form-inline form" action="javascript:void(null);">
 				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="hfq-biznes.com">
-				<input type="hidden" name="admin_email" value="naskromnuk@gmail.com">
-				<input type="hidden" name="form_subject" value="РЕГИСТРАЦИЯ">
+				<input type="hidden" name="project_name" value="">
+				<input type="hidden" name="admin_email" value="">
+				<input type="hidden" name="form_subject" value="">
 				<!-- END Hidden Required Fields -->
 				<div class="form_input">
 					<span class="field">

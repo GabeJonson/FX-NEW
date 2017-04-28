@@ -225,12 +225,8 @@ header {
           max-width: 85px; }
     header .after_top .phone {
       float: left;
-      background-image: url(../img/header/phone.png);
-      background-repeat: no-repeat;
-      background-position: left 15px;
       max-width: 273px;
-      margin-left: 330px;
-      padding-left: 55px;
+      margin-left: 320px;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       margin-top: -18px; }
@@ -360,8 +356,8 @@ header {
             text-align: center; }
   header .menu {
     background-color: #e1e1e1;
-    padding-top: 33px;
-    padding-bottom: 29px;
+    padding-top: 20px;
+    padding-bottom: 16px;
     overflow: hidden; }
     header .menu ul {
       overflow: hidden;
@@ -409,7 +405,7 @@ header {
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
-      padding-top: 130px;
+      padding-top: 152px;
       padding-bottom: 200px; }
       header .slick .w1:focus, header .slick .w2:focus, header .slick .w3:focus, header .slick .w4:focus, header .slick .w5:focus, header .slick .w6:focus, header .slick .w7:focus {
         outline: 0; }
@@ -488,7 +484,7 @@ header {
 .btn-menu {
   display: none;
   color: #fff;
-  background-color: #333c42;
+  background-color: transparent;
   padding: 5px;
   position: absolute;
   top: 10px;
@@ -526,7 +522,7 @@ header {
   top: 0;
   width: 25px;
   height: 3px;
-  background: white;
+  background: #9c4baa;
   border: none;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -538,7 +534,7 @@ header {
   width: 25px;
   height: 3px;
   top: 6.6px;
-  background: white;
+  background: #9c4baa;
   border: none;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -551,7 +547,7 @@ header {
   width: 25px;
   height: 3px;
   top: 13.5px;
-  background: white;
+  background: #9c4baa;
   border: none;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -578,3 +574,19 @@ header {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
+
+.after_top__phone {
+  width: 40px;
+  display: block;
+  float: left;
+  margin-top: 17px;
+  margin-right: 10px; }
+  .after_top__phone path {
+    fill: #959595; }
+
+.mobile_l_2_a_top {
+  display: block;
+  max-width: 75px; }
+
+.mobile_l_2_svg {
+  max-width: 40px; }

@@ -6381,7 +6381,9 @@ footer {
       margin: 0 auto;
       padding: 0 !important;
       padding-left: 5px !important;
-      padding-right: 5px !important; } }
+      padding-right: 5px !important; }
+  .mobile_l_2 {
+    display: block; } }
 
 @media only screen and (max-width: 1200px) {
   #live_trade_2 .partnership2_s2__left img {

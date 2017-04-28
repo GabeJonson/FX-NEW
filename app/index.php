@@ -383,9 +383,9 @@
 			<h3>Fill out the fields below and get “The Guide For Successful Copy Trading On Forex” absolutely <span>FREE OF CHARGE.</span></h3>
 			<form method="POST" class="form-inline form" action="javascript:void(null);">
 				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="hfq-biznes.com">
-				<input type="hidden" name="admin_email" value="naskromnuk@gmail.com">
-				<input type="hidden" name="form_subject" value="РЕГИСТРАЦИЯ">
+				<input type="hidden" name="project_name" value="">
+				<input type="hidden" name="admin_email" value="">
+				<input type="hidden" name="form_subject" value="">
 				<!-- END Hidden Required Fields -->
 				<div class="form_input">
 					<span class="field">
@@ -529,9 +529,9 @@
 			<h3 class="h3">Let your money work for you</h3>
 			<form method="POST" class="form-inline form" action="javascript:void(null);">
 				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="hfq-biznes.com">
-				<input type="hidden" name="admin_email" value="naskromnuk@gmail.com">
-				<input type="hidden" name="form_subject" value="РЕГИСТРАЦИЯ">
+				<input type="hidden" name="project_name" value="">
+				<input type="hidden" name="admin_email" value="">
+				<input type="hidden" name="form_subject" value="">
 				<!-- END Hidden Required Fields -->
 				<div class="form_input">
 					<span class="field">
