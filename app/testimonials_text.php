@@ -12,11 +12,11 @@
 <?php include "header.php"; ?>
 	</header>
 
-	<section id="header2" class="header2_big" style="background-image: url(img/newsroom/bg.png)">
+	<section id="header2" class="header2_big" style="background-image: url(img/testimonials/bg.png)">
 		<h2>TESTIMONIALS</h2>
 		<ul>
 			<li><a href="testimonials.php">Video Testimonials</a></li>
-			<li class="center_li"><a href="javascript:void(0);">|</a></li>
+			<!-- <li class="center_li"><a href="javascript:void(0);">|</a></li> -->
 			<li><a href="testimonials_text.php" class="active">Text Testimonials</a></li>
 		</ul>
 	</section>

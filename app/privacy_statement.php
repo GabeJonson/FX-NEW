@@ -23,13 +23,7 @@
 			<br><br>
 			Having opened an account with FX Manager you can be sure that <span>your personal data will not be shared with third parties. Your personal information is highly protected.</span>
 			<br><br>
-			FX Manager guarantees that your personal information will not be accessed even by FX Manager employees except to the limited number of responsible employees who are specially trained to deal with confidential personal information of our clients.
-			<br><br>
-			FX Manager uses cookies. A cookie is a small text file that is placed in your hard drive by our server.
-			<br><br>
-			Cookies do not contain any personally identifiable information. They are used solely to determine if you have previously visited our website or not, and to provide the security of your FX Manager account.
-			<br><br>
-			FX Manager does not disclose any information about its current or former clients except to the cases defined by law.</p>
+			FX Manager guarantees that your personal information will not be accessed even by FX Manager employees except to the limited number of responsible employees who are specially trained to deal with confidential personal information of our clients.</p>
 		</div>
 	</section>
 

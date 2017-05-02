@@ -102,6 +102,9 @@
 		padding-top: 45px;
 		padding-bottom: 60px;
 	}
+	header .after_top .lang{
+		padding-bottom: 20px !important;
+	}
 	.testimonialstext_s1_ol{
 		.wrapper{
 			width: auto !important;
@@ -208,17 +211,20 @@
 			transform: translateX(0px) !important;
 		}
 		.menu{
-			height: 100vh;
+			min-height: 100vh;
 			box-sizing: border-box;
 			z-index: 20;
 			text-align: center;
 			position: absolute;
 			padding-top: 55px;
 			padding-left: 20px;
+			padding-right: 20px;
 			top: 0;
 			right: 0;
 			transform: translateX(200px);
 			transition: transform .4s ease;
+			background-color: #fff;
+			border: 1px solid $hover;
 			ul{
 				float: none;
 				li{
@@ -370,7 +376,10 @@
 			padding-right: 5px !important;
 		}
 	}
-	.mobile_l_2{
+	header .wrapper{
+		background-color: #fff;
+	}
+	.mobile_l_2,.menu_fx{
 		display: block;
 	}
 }
@@ -1606,6 +1615,9 @@
 }
 
 @media only screen and (max-width : 1000px) {
+	.mobile_l_2_item{
+		margin: 0 6% !important;
+	}
 	.account_validation__table{
 		tr{
 			td{
@@ -1725,6 +1737,9 @@
 }
 
 @media only screen and (max-width : 800px) {
+	.mobile_l_2_item{
+		margin: 0 5% !important;
+	}
 	.confirm_transfer{
 		padding: 0;
 		padding-top: 30px;
@@ -1763,6 +1778,9 @@
 }
 
 @media only screen and (max-width : 768px) {
+	.mobile_l_2_item{
+		margin: 0 4.5% !important;
+	}
 	#account_statistics{
 		#header2 h2{
 			font-size: 20px;
@@ -1828,7 +1846,24 @@
 	}
 }
 
+@media only screen and (max-width : 700px) {
+	.mobile_l_2_item{
+		margin: 0 3% !important;
+	}
+	.career__s2__ul{
+		li{
+			display: block !important;
+			float: none;
+			margin: 0 !important;
+			margin-top: 15px !important;
+		}
+	}
+}
+
 @media only screen and (max-width : 600px) {
+	.mobile_l_2_item{
+		margin: 0 2% !important;
+	}
 	.testimonialstext_s2 .registration_s3__button{
 		margin: 0 auto;
 		margin-top: 10px;
@@ -1960,6 +1995,9 @@
 }
 
 @media only screen and (max-width : 550px) {
+	.mobile_l_2_item{
+		margin: 0 0.5% !important;
+	}
 	.posadka_s1__center{
 		display: none;
 	}
@@ -1996,6 +2034,55 @@
 	.posadka_s1__h3{
 		line-height: 1.6;
 		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width : 520px) {
+	header .after_top .lang{
+		padding-bottom: 0px !important;
+	}
+	.mobile_l_2_live{
+		width: 57px;
+		height: 52px;
+		padding: 0 !important;
+		span{
+			display: none !important;
+		}
+	}
+	.mobile_l_2_item{
+		margin: 0 5% !important;
+	}
+	header .after_top .lang:hover .ul{
+		text-align: center;
+		top: 53px !important;
+		left: 88px !important;
+	}
+	.mobile_l_2_lang .first{
+		text-align: center;
+	}
+	.mobile_l_2_four{
+		display: inline-block !important;
+	}
+	.lang{
+		background-image: none !important;
+		width: auto !important;
+		padding: 0 !important;
+	}
+	header .after_top .lang .first{
+		color: #959595;
+		font-family: Roboto;
+		font-size: 20px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	header .after_top .lang .two{
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 500px) {
+	.mobile_l_2_item{
+		margin: 0 4% !important;
 	}
 }
 
@@ -2191,7 +2278,7 @@
 		}
 		.menu{
 			width: 100vw !important;
-			height: 100vh;
+			min-height: 100vh;
 			transform: translateX(100vw);
 		}
 	}
@@ -2269,7 +2356,19 @@
 	}
 }
 
+@media only screen and (max-width : 450px) {
+	.mobile_l_2_item{
+		margin: 0 3% !important;
+	}
+}
+
 @media only screen and (max-width : 400px) {
+	.mobile_l_2_first{
+		left: -50px;
+	}
+	.mobile_l_2_item{
+		margin: 0 2% !important;
+	}
 	#s5,#deposit_types__s1{
 		.wrap{
 			table{
@@ -2291,5 +2390,17 @@
 				}
 			}
 		}
+	}
+}
+
+@media only screen and (max-width : 350px) {
+	.mobile_l_2_item{
+		margin: 0 1% !important;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+	.mobile_l_2_item{
+		margin: 0 0% !important;
 	}
 }

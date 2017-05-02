@@ -16,7 +16,7 @@
 		<h2>NEWS</h2>
 		<ul>
 			<li><a href="news_room.php">Company News</a></li>
-			<li class="center_li"><a href="javascript:void(0);">|</a></li>
+			<!-- <li class="center_li"><a href="javascript:void(0);">|</a></li> -->
 			<li><a href="forex_news.php" class="active">Forex News</a></li>
 		</ul>
 	</section>

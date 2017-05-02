@@ -134,7 +134,13 @@ button:active {
   .pagi li .pagi_third {
     margin-top: -22px; }
   .account_validation_s2__input_top {
-    margin-top: -7px !important; } }
+    margin-top: -7px !important; }
+  .regitstration_s3__secret_code, .regitstration_s3__cod {
+    margin-top: 4px !important; }
+  .testimonialstext_s2__textarea {
+    margin-top: 0 !important; }
+  #s12 .left_otz_text, #s12 .right_otz_text {
+    bottom: 7px !important; } }
 
 .internal_page .menu {
   background-color: #e1e1e1;
@@ -584,9 +590,90 @@ header {
   .after_top__phone path {
     fill: #959595; }
 
+.mobile_l_2 {
+  display: none;
+  text-align: left; }
+
 .mobile_l_2_a_top {
-  display: block;
   max-width: 75px; }
 
+.mobile_l_2_wrap {
+  position: relative; }
+  .mobile_l_2_wrap:hover .mobile_l_2_first {
+    visibility: visible;
+    opacity: 1; }
+
 .mobile_l_2_svg {
-  max-width: 40px; }
+  width: 40px;
+  margin: 0 auto; }
+
+.mobile_l_2_first {
+  top: 56px;
+  left: 0;
+  position: absolute;
+  -webkit-transition: opacity .4s ease;
+  transition: opacity .4s ease;
+  visibility: hidden;
+  opacity: 0;
+  max-width: 288px;
+  min-height: 72px;
+  background-color: #fff;
+  padding-left: 29px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 29px;
+  position: absolute;
+  z-index: 100;
+  border: 1px solid #e1e1e1; }
+  .mobile_l_2_first a {
+    font-family: Roboto;
+    font-weight: 700;
+    color: #929292;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 3px;
+    display: block;
+    min-width: 218px; }
+    .mobile_l_2_first a:hover {
+      color: #9c4baa; }
+
+.mobile_l_2_live {
+  background-image: url(../img/header/live.png) !important;
+  padding-left: 66px !important; }
+
+.mobile_l_2_lang {
+  background-image: url(../img/header/earzh.png) !important;
+  padding-left: 60px !important;
+  padding-bottom: 10px !important;
+  position: relative !important; }
+  .mobile_l_2_lang .ul {
+    position: absolute !important;
+    top: 59px !important;
+    left: 141px !important;
+    display: block !important; }
+
+.mobile_l_2_item {
+  display: inline-block !important;
+  float: none !important;
+  margin: 0 7% !important;
+  text-align: left;
+  vertical-align: middle; }
+  .mobile_l_2_item:first-child {
+    margin-left: 0 !important; }
+
+.menu_fx {
+  display: none; }
+  .menu_fx li:first-child:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.mobile_l_2_four {
+  display: none !important;
+  width: 18px;
+  height: 10px;
+  color: #959595; }

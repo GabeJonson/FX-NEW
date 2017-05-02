@@ -33,9 +33,18 @@
 			<div class="wrap">
 				<span class="career__s2__h2">CURRENT JOB OPENINGS:</span>
 				<ul class="career__s2__ul">
-					<li>&mdash; Forex Analyst</li>
-					<li>&mdash; Internal Auditor</li>
-					<li>&mdash; Mathematician (Fuzzy Algorithms)</li>
+					<li>
+						<img src="img/career/1_icon.png" alt="1_icon">
+						<span>Forex Analyst</span>
+					</li>
+					<li>
+						<img src="img/career/2_icon.png" alt="2_icon">
+						<span>Internal Auditor</span>
+					</li>
+					<li>
+						<img src="img/career/3_icon.png" alt="3_icon">
+						<span>Mathematician<br>(Fuzzy Algorithms)</span>
+					</li>
 				</ul>
 				<p class="career__s2__p">If you feel you can benefit our company, please send your CV and a cover letter to our HR Department at <a href="mailto:career@fxmanager.org" class="a button_hover">career@fxmanager.org</a>. Only suitable candidates will be contacted.</p>
 			</div>

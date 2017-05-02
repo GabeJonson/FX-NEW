@@ -559,7 +559,7 @@
       }
     }
     a.button{
-      width: 553px;
+      width: 551px;
       height: 70px;
       border: 1px solid black;
       box-sizing: border-box;
@@ -855,6 +855,9 @@
   padding-bottom: 100px;
   position: relative;
   background-size: cover;
+  .field{
+    float: left;
+  }
   h3{
     font-family: Roboto;
     font-size: 21px;
@@ -1228,6 +1231,9 @@
   form{
     margin-top: 50px;
   }
+  .field{
+    float: left;
+  }
 }
 
 #s14{
@@ -1501,25 +1507,22 @@ footer{
     margin-top: 2px;
     li{
       display: inline-block;
-      margin: 0 8px;
+      margin: 0 12px;
       &.center_li{
         margin-left: 0;
         margin-right: 0;
       }
       a{
-        color: #b8b8b8;
+        color: #fff;
         font-family: Roboto;
         font-size: 20px;
         font-weight: 700;
         line-height: 27px;
-        text-decoration: underline;
+        border-bottom: 1px solid #fff;
         letter-spacing: 0.001em;
-        &:hover{
-          color: $hover;
-        }
       }
       .active{
-        color: #fff;
+        border-bottom: 4px solid #9c4baa;
       }
     }
   }
@@ -1534,8 +1537,9 @@ footer{
   .left{
     float: left;
     width: 100%;
-    max-width: 540px;
-    margin-top: 8px;
+    max-width: 378px;
+    margin-top: 0;
+    margin-left: 180px;
     display: block;
   }
   .right{
@@ -2675,7 +2679,7 @@ footer{
       }
     }
     a.button{
-      width: 553px;
+      width: 551px;
       height: 70px;
       border: 1px solid black;
       box-sizing: border-box;
@@ -2734,10 +2738,10 @@ footer{
   }
   .privacy_statement__img{
     width: 100%;
-    max-width: 460px;
+    max-width: 300px;
     display: block;
     float: left;
-    margin-left: 5px;
+    margin-left: 150px;
     margin-top: 5px;
   }
   .privacy_statement__p{
@@ -2763,8 +2767,8 @@ footer{
     display: block;
     float: left;
     width: 100%;
-    max-width: 300px;
-    margin-left: 210px;
+    max-width: 337px;
+    margin-left: 190px;
     margin-top: 75px;
   }
   .right{
@@ -3073,11 +3077,12 @@ footer{
 }
 
 #career__s2{
-  padding-top: 6px;
+  padding-top: 0;
   padding-bottom: 9px;
   .wrap{
     overflow: hidden;
     margin-bottom: 90px;
+    text-align: center;
   }
   .career__s2__h2{
     color: #000;
@@ -3087,11 +3092,41 @@ footer{
     line-height: 27px;
     text-transform: uppercase;
     max-width: 831px;
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    text-transform: uppercase;
     display: inline-block;
+    margin: 0 auto;
+    text-align: center;
   }
   .career__s2__ul{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 57px;
+    margin-bottom: 61px;
+    li{
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 30px;
+      &:first-child{
+        margin-left: 0;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+      img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 24px;
+      }
+      span{
+        color: #000000;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
   }
   .career__s2__img{
     width: 100%;
@@ -3115,7 +3150,7 @@ footer{
 
 #terms_of_service{
   #header2{
-    padding-bottom: 74px;
+    // padding-bottom: 74px;
     h2{
       line-height: 60px;
     }
@@ -3127,10 +3162,10 @@ footer{
   padding-bottom: 93px;
   .terms_of_service__left{
     width: 100%;
-    max-width: 371px;
+    max-width: 276px;
     float: left;
-    margin-left: 5px;
-    margin-top: 8px;
+    margin-left: 110px;
+    margin-top: 7px;
   }
   .terms_of_service__right{
     float: left;
@@ -3993,6 +4028,7 @@ footer{
   }
   .regitstration_s3__cod{
     width: 284px;
+    margin-top: 7px;
   }
   .regitstration_s3__secret_code{
     width: 286px;
@@ -4974,6 +5010,7 @@ footer{
   }
   .regitstration_s3__cod{
     width: 284px;
+    margin-top: 7px;
   }
   .regitstration_s3__secret_code{
     width: 286px;
@@ -4990,6 +5027,7 @@ footer{
     font-weight: 500;
     background-color: transparent;
     position: relative;
+    margin-top: 7px;
     &::placeholder{
       text-align: center;
     };
@@ -5382,6 +5420,7 @@ footer{
     font-weight: 500;
     background-color: transparent;
     position: relative;
+    margin-top: 7px;
     &::placeholder{
       text-align: center;
     };
