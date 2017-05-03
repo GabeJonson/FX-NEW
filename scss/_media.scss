@@ -136,7 +136,7 @@
 		width: auto;
 	}
 	header{
-		overflow: hidden;
+		// overflow: hidden;
 		&.header_active{
 			overflow: initial;
 		}
@@ -1958,6 +1958,35 @@
 }
 
 @media only screen and (max-width : 580px) {
+	#calllBack{
+		width: 400px;
+		text-align: center;
+	}
+	.calllBack_span{
+		text-align: center;
+	}
+	.callback_form{
+		margin: 0 auto;
+	}
+	#calllBack .intl-tel-input{
+		margin: 0 auto;
+		display: inline-block;
+		width: 300px;
+	}
+	.calllBack_input,.calllBack_button{
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto;
+		display: block;
+	}
+	.calllBack_input{
+		margin-bottom: 15px;
+	}
+	.calllBack_button{
+		margin-top: 20px;
+		display: block;
+
+	}
 	.callback_s1__left{
 		width: auto;
 		input,textarea{
@@ -2038,6 +2067,9 @@
 }
 
 @media only screen and (max-width : 520px) {
+	header .after_top .lang .first{
+		line-height: 1;
+	}
 	header .after_top .lang{
 		padding-bottom: 0px !important;
 	}
@@ -2087,6 +2119,12 @@
 }
 
 @media only screen and (max-width : 480px) {
+	#calllBack{
+		width: 315px;
+	}
+	.calllBack_input,.calllBack_button,#calllBack .intl-tel-input{
+		width: 280px;
+	}
 	header .slick a{
 		max-width: 300px;
 	}

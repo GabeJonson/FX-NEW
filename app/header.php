@@ -22,7 +22,7 @@
 					<span class="first">
 						<a href="tel:+37167871851" style="margin-bottom: 0">International: +371-678-71851</a>
 						<a href="tel:+18552357935">US/Canada: <span class="header_phone_span">+1-855-235-7935</span></a>
-						<a href="#">Call back</a>
+						<a href="#calllBack" class='modall_pad'>Call back</a>
 					</span>
 					<span class="two" style="display: none">
 						MON-FRI<br>9:00 AM - 5:00 PM GMT
@@ -61,7 +61,7 @@
 						<span class="first mobile_l_2_first">
 							<a href="tel:+37167871851" style="margin-bottom: 0">International: +371-678-71851</a>
 							<a href="tel:+18552357935">US/Canada: <span class="header_phone_span">+1-855-235-7935</span></a>
-							<a href="#">Call back</a>
+							<a href="#calllBack" class='modall_pad'>Call back</a>
 						</span>
 					</div>
 					<a href="#" class="live mobile_l_2_live mobile_l_2_item">
@@ -92,6 +92,7 @@
 			</div>
 		</div>
 		<!-- MENU -->
+		<div class="wrap"></div>
 		<input type="checkbox" id="hmt" class="hidden-menu-ticker">
 		<label class="btn-menu" for="hmt">
 			<span class="first_mazafaka"></span>

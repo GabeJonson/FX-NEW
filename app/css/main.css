@@ -1390,7 +1390,7 @@ footer {
         padding-bottom: 10px; }
 
 #newsroom_s2 {
-  margin-top: 20px;
+  margin-top: 0;
   padding-bottom: 100px; }
   #newsroom_s2 .wrap {
     overflow: hidden;
@@ -1888,11 +1888,16 @@ footer {
       display: inline-block;
       margin: 0 5px; }
       .profit_history__s2_calendar .profit_history__s2_calendar_top_ul li a {
-        color: #9c4baa;
+        color: #000;
         font-family: Roboto;
         font-size: 17px;
         font-weight: 500;
-        text-decoration: underline; }
+        text-decoration: none;
+        border-bottom: 1px solid black; }
+        .profit_history__s2_calendar .profit_history__s2_calendar_top_ul li a:hover {
+          color: #000 !important; }
+      .profit_history__s2_calendar .profit_history__s2_calendar_top_ul li .profit_history__s2_calendar_top_active {
+        border-bottom: 3px solid #9c4baa; }
   .profit_history__s2_calendar .profit_history__s2_calendar_after_top {
     margin-top: 10px;
     border: 1px solid black;
@@ -1905,13 +1910,15 @@ footer {
       font-family: Roboto;
       font-size: 15px;
       color: #9c4baa;
-      font-weight: 500;
-      float: left; }
+      font-weight: 700;
+      float: left;
+      margin-left: 9px;
+      margin-top: 2px; }
     .profit_history__s2_calendar .profit_history__s2_calendar_after_top .profit_history__s2_calendar_after_top_ul {
       float: right; }
       .profit_history__s2_calendar .profit_history__s2_calendar_after_top .profit_history__s2_calendar_after_top_ul li {
         display: inline-block;
-        margin: 0 5px; }
+        margin: 0 9px; }
         .profit_history__s2_calendar .profit_history__s2_calendar_after_top .profit_history__s2_calendar_after_top_ul li a {
           font-family: Roboto;
           font-size: 14px;
@@ -3253,7 +3260,7 @@ footer {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-color: transparent;
-      margin-left: 106px; }
+      margin-left: 124px; }
       #modal_login .modal_login__bottom button:hover {
         color: #fff;
         border-color: #9c4baa;
@@ -6038,6 +6045,75 @@ footer {
   padding-top: 0;
   background-color: #fff; }
 
+#calllBack {
+  width: 539px;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 58px;
+  text-align: center;
+  padding-bottom: 75px; }
+  #calllBack .intl-tel-input {
+    display: block;
+    margin-top: 9px; }
+
+.calllBack_h2 {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center; }
+
+.callback_form {
+  margin-left: 65px;
+  margin-top: 17px; }
+
+.calllBack_span {
+  color: #a09292;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  text-align: left; }
+
+.calllBack_span--last {
+  margin-top: 15px; }
+
+.calllBack_input {
+  width: 410px;
+  height: 70px;
+  border: 1px solid #929292;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 22px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 5px;
+  padding-right: 5px; }
+  .calllBack_input:focus {
+    border: 1px solid #9c4baa; }
+
+.calllBack_button {
+  width: 410px;
+  height: 70px;
+  border: 1px solid #9c4baa;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #9c4baa;
+  display: block;
+  margin-top: 41px; }
+  .calllBack_button:hover {
+    background-color: #9c4baa;
+    color: #fff; }
+
 .fa-warning:before, .fa-exclamation-triangle:before {
   content: "\f071";
   font-family: FontAwesome; }
@@ -6232,103 +6308,101 @@ footer {
       margin: 0 auto; }
   .wrapper {
     width: auto; }
-  header {
-    overflow: hidden; }
-    header.header_active {
-      overflow: initial; }
-    header .top {
-      display: none; }
-    header .after_top {
-      text-align: center;
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-bottom: 0; }
-      header .after_top .left {
-        display: none;
-        float: left;
-        margin: 0 auto;
-        width: auto; }
-        header .after_top .left a {
-          margin: 0 auto; }
-      header .after_top .phone {
-        display: none;
-        float: left;
-        margin: 0 auto;
-        margin-top: 15px; }
-      header .after_top .lang {
-        display: none;
-        float: left;
-        margin: 0 auto;
-        background-image: none;
-        padding: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        width: 106px; }
-      header .after_top .live {
-        display: none;
-        margin: 0 auto;
-        float: left;
-        padding: 0;
-        background-image: none; }
-      header .after_top .lang .ul {
-        display: none;
-        left: 50%;
-        margin-left: -90px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: auto;
-        max-width: 300px;
-        right: auto;
-        top: 180px; }
-      header .after_top .mobile_l {
+  header.header_active {
+    overflow: initial; }
+  header .top {
+    display: none; }
+  header .after_top {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    header .after_top .left {
+      display: none;
+      float: left;
+      margin: 0 auto;
+      width: auto; }
+      header .after_top .left a {
+        margin: 0 auto; }
+    header .after_top .phone {
+      display: none;
+      float: left;
+      margin: 0 auto;
+      margin-top: 15px; }
+    header .after_top .lang {
+      display: none;
+      float: left;
+      margin: 0 auto;
+      background-image: none;
+      padding: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 106px; }
+    header .after_top .live {
+      display: none;
+      margin: 0 auto;
+      float: left;
+      padding: 0;
+      background-image: none; }
+    header .after_top .lang .ul {
+      display: none;
+      left: 50%;
+      margin-left: -90px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: auto;
+      max-width: 300px;
+      right: auto;
+      top: 180px; }
+    header .after_top .mobile_l {
+      display: block;
+      padding-top: 3px;
+      padding-bottom: 12px; }
+      header .after_top .mobile_l .li_three {
+        margin-left: 0px; }
+  header .after_top {
+    background-color: #ebebeb; }
+  header .active_menu {
+    -webkit-transform: translateX(0px) !important;
+    -ms-transform: translateX(0px) !important;
+    transform: translateX(0px) !important; }
+  header .menu {
+    min-height: 100vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 20;
+    text-align: center;
+    position: absolute;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 0;
+    right: 0;
+    -webkit-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease;
+    background-color: #fff;
+    border: 1px solid #9c4baa; }
+    header .menu ul {
+      float: none; }
+      header .menu ul li {
+        float: none;
         display: block;
-        padding-top: 3px;
-        padding-bottom: 12px; }
-        header .after_top .mobile_l .li_three {
-          margin-left: 0px; }
-    header .after_top {
-      background-color: #ebebeb; }
-    header .active_menu {
-      -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
-      transform: translateX(0px) !important; }
-    header .menu {
-      min-height: 100vh;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      z-index: 20;
-      text-align: center;
-      position: absolute;
-      padding-top: 55px;
-      padding-left: 20px;
-      padding-right: 20px;
-      top: 0;
-      right: 0;
-      -webkit-transform: translateX(200px);
-      -ms-transform: translateX(200px);
-      transform: translateX(200px);
-      -webkit-transition: -webkit-transform .4s ease;
-      transition: -webkit-transform .4s ease;
-      transition: transform .4s ease;
-      transition: transform .4s ease, -webkit-transform .4s ease;
-      background-color: #fff;
-      border: 1px solid #9c4baa; }
-      header .menu ul {
-        float: none; }
-        header .menu ul li {
-          float: none;
-          display: block;
-          margin-right: 0 !important; }
-      header .menu ol {
-        float: none; }
-        header .menu ol li {
-          float: none;
-          display: block;
-          margin-right: 0 !important; }
-    header .center {
-      display: none; }
+        margin-right: 0 !important; }
+    header .menu ol {
+      float: none; }
+      header .menu ol li {
+        float: none;
+        display: block;
+        margin-right: 0 !important; }
+  header .center {
+    display: none; }
   #s14 {
     text-align: center;
     padding-top: 20px !important; }
@@ -7528,6 +7602,27 @@ footer {
     width: 300px; } }
 
 @media only screen and (max-width: 580px) {
+  #calllBack {
+    width: 400px;
+    text-align: center; }
+  .calllBack_span {
+    text-align: center; }
+  .callback_form {
+    margin: 0 auto; }
+  #calllBack .intl-tel-input {
+    margin: 0 auto;
+    display: inline-block;
+    width: 300px; }
+  .calllBack_input, .calllBack_button {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block; }
+  .calllBack_input {
+    margin-bottom: 15px; }
+  .calllBack_button {
+    margin-top: 20px;
+    display: block; }
   .callback_s1__left {
     width: auto; }
     .callback_s1__left input, .callback_s1__left textarea {
@@ -7577,6 +7672,8 @@ footer {
     margin-bottom: 20px; } }
 
 @media only screen and (max-width: 520px) {
+  header .after_top .lang .first {
+    line-height: 1; }
   header .after_top .lang {
     padding-bottom: 0px !important; }
   .mobile_l_2_live {
@@ -7613,6 +7710,10 @@ footer {
     margin: 0 4% !important; } }
 
 @media only screen and (max-width: 480px) {
+  #calllBack {
+    width: 315px; }
+  .calllBack_input, .calllBack_button, #calllBack .intl-tel-input {
+    width: 280px; }
   header .slick a {
     max-width: 300px; }
   .account_validation__table tr td {

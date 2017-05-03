@@ -41,7 +41,7 @@
 					<ul class="profit_history__s2_calendar_top_ul">
 						<li><a href="#" class="button_hover">2015</a></li>
 						<li><a href="#" class="button_hover">2016</a></li>
-						<li><a href="#" class="button_hover">2017</a></li>
+						<li><a href="#" class="button_hover profit_history__s2_calendar_top_active">2017</a></li>
 					</ul>
 				</div>		
 				<div class="profit_history__s2_calendar_after_top">
@@ -59,7 +59,7 @@
 						<li><a href="#">OCT <span>3.33%</span></a></li>
 						<li><a href="#">NOV <span>3.33%</span></a></li>
 						<li><a href="#">DEC <span>3.33%</span></a></li>
-						<li class="profit_history__s2_calendar_after_top_li"><a href="#">TOTAL <span>3.33%</span></a></li>
+						<!-- <li class="profit_history__s2_calendar_after_top_li"><a href="#">TOTAL <span>3.33%</span></a></li> -->
 					</ul>
 				</div>
 				<div class="profit_history__s2_calendar_middle">
@@ -189,14 +189,7 @@
 	</section>
 
 <?php include "footer.php"; ?>
-
-	<!-- Load Scripts Start -->
-	<script>var scr = {"scripts":[
-		{"src" : "js/libs.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
-		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-	</script>
-	<!-- Load Scripts End -->
+<?php include "script.php"; ?>
 
 </body>
 </html>

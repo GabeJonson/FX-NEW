@@ -34,21 +34,20 @@
 				<ol>
 					<li><a href="#" class="button3 chat_ol">Start Live Chat</a></li>
 					<li><a href="#" class="button3 spec_ol">Submit A Ticket</a></li>
-					<li><a href="#" class="button3 call_ol">Request A Callback</a></li>
+					<li><a href="#calllBack" class="button3 call_ol modall_pad">Request A Callback</a></li>
 				</ol>
 			</div>
 		</div>
 	</section>
 
-<?php include "footer.php"; ?>
+	<div class="hidden">
+		<div class="popap" id="submitTicket">
+			
+		</div>
+	</div>
 
-	<!-- Load Scripts Start -->
-	<script>var scr = {"scripts":[
-		{"src" : "js/libs.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
-		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-	</script>
-	<!-- Load Scripts End -->
+<?php include "footer.php"; ?>
+<?php include "script.php"; ?>
 
 </body>
 </html>
