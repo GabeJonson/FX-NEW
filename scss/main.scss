@@ -3640,7 +3640,8 @@ footer{
     float: none;
   }
   input{
-    width: 570px;
+    display: block;
+    width: 285px;
     height: 70px;
     border: 1px solid #929292;
     box-sizing: border-box;
@@ -3687,7 +3688,7 @@ footer{
     }
     button{
       margin-top: 19px;
-      width: 255px;
+      width: 285px;
       height: 70px;
       border: 1px solid #929292;
       color: #929292;
@@ -3696,7 +3697,7 @@ footer{
       font-weight: 500;
       box-sizing: border-box;
       background-color: transparent;
-      margin-left: 124px;
+      margin-left: 93px;
       &:hover{
         color: #fff;
         border-color: $hover;
@@ -4044,7 +4045,7 @@ footer{
     height: 70px;
     box-sizing: border-box;
     display: block;
-    float: left;
+    float: right;
     position: relative;
     border: 1px solid #929292;
     padding-left: 13px;
@@ -4652,7 +4653,7 @@ footer{
     height: 70px;
     box-sizing: border-box;
     display: block;
-    float: left;
+    float: right;
     position: relative;
     border: 1px solid #929292;
     padding-left: 13px;
@@ -5026,7 +5027,7 @@ footer{
     height: 70px;
     box-sizing: border-box;
     display: block;
-    float: left;
+    float: right;
     position: relative;
     border: 1px solid #929292;
     padding-left: 13px;
@@ -5366,13 +5367,13 @@ footer{
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    width: 255px;
+    width: 284px;
     height: 70px;
     border: 1px solid #929292;
     box-sizing: border-box;
     background-color: transparent;
     margin-top: 18px;
-    margin-left: 314px;
+    margin-left: 285px;
     &:hover{
       background-color: $hover;
       color: #fff;
@@ -5419,7 +5420,7 @@ footer{
     height: 70px;
     box-sizing: border-box;
     display: block;
-    float: left;
+    float: right;
     position: relative;
     border: 1px solid #929292;
     padding-left: 13px;
@@ -5429,7 +5430,6 @@ footer{
     font-weight: 500;
     background-color: transparent;
     position: relative;
-    margin-top: 7px;
     &::placeholder{
       text-align: center;
     };
@@ -6761,6 +6761,111 @@ footer{
       color: #fff;
     }
   }
+
+  #calllBackThanks{
+    width: 539px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    outline: 1px solid red;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+    .calllBackThanks_span{
+      color: #000000;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+  #reqACallBack{
+    width: 539px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    padding-top: 57px;
+    padding-bottom: 69px;
+  }
+    .reqACallBack_span{
+      color: #000000;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      display: block;
+      text-align: center;
+    }
+      .reqACallBack_form{
+        margin-top: 24px;
+      }
+        .reqACallBack_input{
+          width: 410px;
+          height: 70px;
+          border: 1px solid #929292;
+          color: #a09292;
+          font-family: Roboto;
+          font-size: 15px;
+          font-weight: 500;
+          display: block;
+          margin: 0 auto;
+          padding-left: 19px;
+          padding-right: 5px;
+          background-color: #fff;
+          &:focus{
+            border: 1px solid $hover;
+          }
+        }
+          .reqACallBack_input--text{
+            min-height: 134px;
+            padding-top: 5px;
+          }
+        .reqACallBack_wrap{
+          overflow: hidden;
+          width: 410px;
+          margin: 0 auto;
+        }
+          .reqACallBack_input--wrap{
+            float: left;
+            width: 50%;
+            text-align: center;
+            padding: 0;
+          }
+        .reqACallBack_spanBottom{
+          color: #a09292;
+          font-family: Roboto;
+          font-size: 15px;
+          font-weight: 500;
+          display: block;
+          margin-left: 65px;
+          margin-top: 10px;
+        }
+        .reqACallBack_button{
+          color: #9c4baa;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 700;
+          width: 410px;
+          height: 70px;
+          border: 1px solid #9c4baa;
+          background-color: #fff;
+          display: block;
+          margin: 0 auto;
+          margin-top: 16px;
+          &:hover{
+            color: #fff;
+            background-color: $hover;
+          }
+        }
+
+        .modal_login_wrap{
+          overflow: hidden;
+          width: 570px;
+          margin: 0 auto;
+          input{
+            float: left !important;
+            width: 50% !important;
+            display: block !important;
+          }
+        }
+
 
 //ALWAYS END
 @import "sketches.scss";

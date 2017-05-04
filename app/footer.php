@@ -79,20 +79,11 @@
 		<div id="modal_login" class="popap">
 			<span class="modal_login__name">Account login</span>
 			<form method="POST" class="form-inline" action="javascript:void(null);">
-				<div class="form_input">
-					<span class="field">
-						<input type="text" class="form-control name" name="name" required="" placeholder="*Login:" />
-					</span>
-				</div>
-				<div class="form_input">
-					<span class="field">
-						<input type="password" class="form-control" name="pass" required=""  placeholder="*Password:" />
-					</span>
-				</div>
-				<div class="form_input">
-					<span class="field">
-						<input type="text" class="form-control" name="code" required=""  placeholder="*Type the code shown:" />
-					</span>
+				<div class="modal_login_wrap">
+					<input type="text" class="form-control name modal_login_first_i" name="name" required="" placeholder="*Login:" />
+					<input type="password" class="form-control modal_login_first_w" name="pass" required=""  placeholder="*Password:" />
+					<input type="text" placeholder="W6 8HP" disabled="">
+					<input type="text" class="form-control" name="code" required=""  placeholder="*Type the code shown:" />
 				</div>
 				<div class="form_input soc_seti_span">
 					<span class="registration_s2__span3 popap_registration_s2">*Required fields</span>
@@ -104,6 +95,7 @@
 				</div>
 			</form>
 		</div>
+
 		<div class="popap" id="calllBack">
 			<span class="calllBack_h2">Обратный звонок</span>
 			<form class="callback_form">
@@ -117,5 +109,9 @@
 
 				<button class="calllBack_button">Заказать обратный звонок</button>
 			</form>
+		</div>
+
+		<div id="calllBackThanks" class="popap">
+			<span class="calllBackThanks_span">Спасибо за заявку!<br> С вами свяжутся<br> в ближайшее время</span>
 		</div>
 	</div>
