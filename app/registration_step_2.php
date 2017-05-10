@@ -12,8 +12,8 @@
 <?php include "header.php"; ?>
 	</header>
 
-	<section id="header2" style="background-image: url(img/registration/bg.jpg)">
-		<h2>registration</h2>
+	<section id="header2" class="registration_section" style="background-image: url(img/registration/bg.jpg)">
+		<h2>registration<br><span class="registration_header_span">STEP 2 OF 2</span></h2>
 	</section>
 
 	<section id="regitstration_s2" class="pad">
@@ -56,7 +56,7 @@
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
+					<span class="field registration_2_form_question">
 						<input class="registration_s2__input" id="registration_s2__input__partnership" type="text" class="form-control name" name="name" required="" placeholder="Partnership ID:"/>
 						<span class="registration_s1__mobile2" data-title="Enter the partnership ID number of the person who told you about FX Manager. That person will receive partnership commission.">?</span>
 					</span>

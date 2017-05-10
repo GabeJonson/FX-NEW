@@ -3275,13 +3275,23 @@ footer {
     padding: 0; }
   #regitstration_s1 .wrap {
     overflow: hidden;
-    padding-top: 116px; }
+    padding-top: 100px; }
+  #regitstration_s1 .field {
+    float: left; }
+  #regitstration_s1 form input[type=text] {
+    background-image: url(../img/s13/icon/1_1.png);
+    background-position: 20px 29px; }
+  #regitstration_s1 form input[type=email] {
+    background-image: url(../img/s13/icon/3_1.png);
+    background-position: 20px 29px;
+    margin-right: 0; }
   #regitstration_s1 form {
-    padding-bottom: 205px;
+    padding-bottom: 149px;
     margin-top: -44px;
-    margin-left: 22px; }
+    width: 816px;
+    margin: 0 auto; }
     #regitstration_s1 form input {
-      width: 554px;
+      width: 400px;
       height: 70px;
       border: 1px solid #929292;
       color: #929292;
@@ -3291,7 +3301,6 @@ footer {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       display: inline-block;
-      margin-right: 30px;
       padding-left: 50px;
       box-sizing: border-box; }
       #regitstration_s1 form input::-webkit-input-placeholder {
@@ -3315,12 +3324,12 @@ footer {
         font-size: 12px;
         font-weight: 500; }
       #regitstration_s1 form input:focus {
-        border-color: #000;
+        border-color: #9c4baa;
         color: #000; }
     #regitstration_s1 form .intl-tel-input {
       float: left; }
     #regitstration_s1 form button {
-      width: 554px;
+      width: 400px;
       height: 70px;
       border: 1px solid #929292;
       color: #929292;
@@ -3338,7 +3347,6 @@ footer {
       -webkit-box-shadow: none;
       box-shadow: none; }
     #regitstration_s1 form .registration_s1__wrap {
-      float: right;
       margin-top: 28px;
       margin-right: 12px; }
     #regitstration_s1 form .registration_s1__yze {
@@ -3348,7 +3356,11 @@ footer {
       font-size: 14px;
       font-weight: 700;
       line-height: 18px;
-      text-decoration: underline; }
+      text-decoration: underline;
+      float: left;
+      margin-top: 10px; }
+    #regitstration_s1 form .registration_s1__pola2 {
+      float: left; }
     #regitstration_s1 form .registration_s1__pola {
       display: block;
       color: #000000;
@@ -3356,7 +3368,8 @@ footer {
       font-size: 14px;
       font-weight: 300;
       line-height: 18px;
-      margin-top: 4px; }
+      margin-top: 4px;
+      float: right; }
   #regitstration_s1 form .form_input .field .allert {
     right: 8% !important; }
 
@@ -3366,8 +3379,7 @@ footer {
   font-size: 14px;
   font-weight: 300;
   line-height: 27px;
-  float: left;
-  margin-left: 20px; }
+  float: left; }
 
 .registration_s1__mobile2 {
   width: 16px;
@@ -3550,7 +3562,7 @@ footer {
     font-size: 12px;
     font-weight: 300;
     width: 400px;
-    display: inline-block;
+    display: none;
     padding: 5px;
     border: 1px solid #000;
     background-color: #fff;
@@ -6232,6 +6244,9 @@ footer {
 .registration_section {
   padding-top: 50px !important;
   padding-bottom: 50px !important; }
+
+.registration_2_form_question {
+  position: relative; }
 
 .fa-warning:before, .fa-exclamation-triangle:before {
   content: "\f071";

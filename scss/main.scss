@@ -3717,14 +3717,27 @@ footer{
   }
   .wrap{
     overflow: hidden;
-    padding-top: 116px;
+    padding-top: 100px;
+  }
+  .field{
+    float: left;
+  }
+  form input[type=text] {
+      background-image: url(../img/s13/icon/1_1.png);
+      background-position: 20px 29px;
+  }
+  form input[type=email] {
+      background-image: url(../img/s13/icon/3_1.png);
+      background-position: 20px 29px;
+      margin-right: 0;
   }
   form{
-    padding-bottom: 205px;
+    padding-bottom: 149px;
     margin-top: -44px;
-    margin-left: 22px;
+    width: 816px;
+    margin: 0 auto;
     input{
-      width: 554px;
+      width: 400px;
       height: 70px;
       border: 1px solid #929292;
       color: #929292;
@@ -3733,7 +3746,6 @@ footer{
       font-weight: 500;
       box-sizing: border-box;
       display: inline-block;
-      margin-right: 30px;
       padding-left: 50px;
       box-sizing: border-box;
       &::placeholder{
@@ -3743,7 +3755,7 @@ footer{
         font-weight: 500;
       };
       &:focus{
-        border-color: #000;
+        border-color: $hover;
         color: #000;
       }
     }
@@ -3751,7 +3763,7 @@ footer{
       float: left;
     }
     button{
-      width: 554px;
+      width: 400px;
       height: 70px;
       border: 1px solid #929292;
       color: #929292;
@@ -3773,7 +3785,6 @@ footer{
       }
     }
     .registration_s1__wrap{
-      float: right;
       margin-top: 28px;
       margin-right: 12px;
     }
@@ -3785,6 +3796,11 @@ footer{
       font-weight: 700;
       line-height: 18px;
       text-decoration: underline;
+      float: left;
+      margin-top: 10px;
+    }
+    .registration_s1__pola2{
+      float: left;
     }
     .registration_s1__pola{
       display: block;
@@ -3794,6 +3810,7 @@ footer{
       font-weight: 300;
       line-height: 18px;
       margin-top: 4px;
+      float: right;
     }
   }
   form .form_input .field .allert{
@@ -3807,7 +3824,6 @@ footer{
   font-weight: 300;
   line-height: 27px;
   float: left;
-  margin-left: 20px;
 }
 .registration_s1__mobile2{
   width: 16px;
@@ -4001,7 +4017,7 @@ footer{
     font-size: 12px;
     font-weight: 300;
     width: 400px;
-    display: inline-block;
+    display: none;
     padding: 5px;
     border: 1px solid #000;
     background-color: #fff;
@@ -6888,7 +6904,9 @@ footer{
   padding-top: 50px !important;
   padding-bottom: 50px !important;
 }
-
+.registration_2_form_question{
+  position: relative;
+}
 
 //ALWAYS END
 @import "sketches.scss";
