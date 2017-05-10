@@ -37,8 +37,14 @@
 			<div class="partnership2_s2__left funding_s1_left">
 				<form method="POST" class="form-inline" action="javascript:void(null);">
 					<input type="text" class="form-control name" name="name" required="" placeholder="Withdrawal method: bank transfer" disabled="" />
-					<input type="text" class="form-control" name="number" required="" placeholder="Current Account balance (EUR): 0" />
-					<input type="number" min="3000" class="form-control" name="number" required="" placeholder="Withdrawal amount (EUR): 0" />
+					<div class="label_field">
+						<input type="text" class="form-control" name="number" required="" id="fun_current_input_text" />
+						<label for="fun_current_input_text" class="funding_s1_label label_form">Current Account balance (EUR): 0</label>
+					</div>
+					<div class="label_field">
+						<input type="number" min="3000" class="form-control" name="number" required="" id="fun_current_input_eur" />
+						<label for="fun_current_input_eur" class="funding_s1_label label_form">Withdrawal amount (EUR): 0</label>
+					</div>
 					<button type="submit" class="btn btn-block button" name="send">Withdraw Money</button>
 				</form>
 			</div>

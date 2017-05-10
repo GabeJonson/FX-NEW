@@ -6891,8 +6891,8 @@ footer{
           width: 570px;
           margin: 0 auto;
           input{
-            float: left !important;
-            width: 50% !important;
+            // float: left !important;
+            // width: 50% !important;
             display: block !important;
           }
         }
@@ -6907,7 +6907,104 @@ footer{
 .registration_2_form_question{
   position: relative;
 }
+.label_field{
+  position: relative;
+}
+.label_form{
+  position: absolute;
+  top: 26px;
+  left: 43px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  transition: transform .4s ease;
+  &:hover{
+    cursor: text;
+  }
+}
+.label_form_active{
+    transform: translateY(20px);
+}
+.label_form_active_tel{
+    transform: translateY(20px);
+}
+.label_form--black{
+  color: #929292;
+  font-size: 15px;
+}
+.label_form_left_5{
+  left: 5px;
+}
+.label_form_wrap{
+  float: left;
+}
+.label_form_fz_12{
+  color: #929292;
+  font-size: 12px;
+  left: 13px;
+  top: 5px;
+}
+.label_field_block{
+  display: block;
+  .label_form_left_5{
+    top: 13px;
+  }
+}
 
+#input_get_tel{
+  margin-right: 15px;
+}
+.label_field_fz_15_color_gray{
+  color: #a09292;
+  font-size: 15px;
+  left: 86px;
+}
+.callback_label_fz_12{
+  color: #959292;
+  font-size: 12px;
+  left: 13px;
+}
+.label_form_active_tel_callback{
+  left: 53px;
+}
+.reg_label{
+  color: #959292;
+  font-size: 12px;
+  left: 50px;
+}
+.reg_label_2{
+  color: #959292;
+  font-size: 12px;
+  left: 13px;
+}
+.label_field_block{
+  display: block;
+}
+.funding_s1_label{
+  color: #929292;
+  left: 5px;
+  font-size: 18px;
+}
+.acc_label{
+  left: 13px;
+  font-size: 12px;
+  color: #929292;
+}
+.acc_label_field{
+  float: left;
+  width: 100%;
+  max-width: 570px;
+}
+.acc_label_field_2{
+  display: inline-block;
+}
+.label_left_111{
+  left: 50px;
+}
+.label_field_art{
+  display: block;
+}
 //ALWAYS END
 @import "sketches.scss";
 @import "media.scss";

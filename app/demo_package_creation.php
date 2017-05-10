@@ -43,8 +43,14 @@
 						<option value="">usd/chf</option>
 						<option value="">usd/jpy</option>
 					</select>
-					<input type="text" class="form-control" name="number" required="" placeholder="Current Account balance (EUR): 0" />
-					<input type="number" min="7000" class="form-control" name="number" required="" placeholder="Package amount (EUR):" />
+					<div class="label_field">
+						<input type="text" class="form-control" name="number" id="s1_fund_text" required=""/>
+						<label for="s1_fund_text" class="funding_s1_label label_form">Current Account balance (EUR): 0</label>
+					</div>
+					<div class="label_field">
+						<input type="number" min="7000" class="form-control" id="s1_fund_eur" name="number" required="" />
+						<label for="s1_fund_eur" class="funding_s1_label label_form">Package amount (EUR):</label>
+					</div>
 					<button type="submit" class="btn btn-block button" name="send">Fund Current Account</button>
 				</form>
 			</div>

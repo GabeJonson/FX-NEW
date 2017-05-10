@@ -15,12 +15,17 @@ $(function() {
 
 	};
 
+	function myStartFunction() {
+		$('input').focusout();
+	}
+
 	//fancybox
 	$("a.modal").fancybox();
 	$("a.modall_pad").fancybox({
 		padding: 0,
 		margin: 0,
-		title: false
+		title: false,
+		afterShow: myStartFunction
 	});
 
 	//PageScroll2id
@@ -266,6 +271,18 @@ $(function() {
 	//wrapi - forex-trading
 	$('#s6 .wrap .wrapi').click(function(){
 		$(this).remove();
+	});
+
+
+	//placeholder
+	$('input').focusin(function() {
+	  $(this).parents('.label_field').find('.label_form').addClass('label_form_active');
+	});
+
+	$('input').focusout(function() {
+		if($(this).val() == ''){
+	  		$(this).parents('.label_field').find('.label_form').removeClass('label_form_active');
+		}
 	});
 
 });

@@ -18,29 +18,24 @@
 
 	<section id="regitstration_s1" class="pad">
 		<div class="wrapper overflow_inherit">
-			<div class="wrap">
-				<!-- <span class="registration_s1__mobile">*Enter your mobile phone number: </span><span class="registration_s1__mobile2">?</span> -->
-				<!-- <span class="registration_s1__mobile3">Your mobile phone number helps us to maintain the security of your account. FX Manager will never share your number with any third parties. You will be sent an SMS message with a verification code that should be entered in the next step.</span> -->
-			</div>
+			<div class="wrap"></div>
 			<form method="POST" class="form-inline form" action="javascript:void(null);">
-				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="">
-				<input type="hidden" name="admin_email" value="">
-				<input type="hidden" name="form_subject" value="">
-				<!-- END Hidden Required Fields -->
 				<div class="form_input">
-					<span class="field">
-						<input type="text" class="form-control name" name="name" required="" placeholder="Your name" />
+					<span class="field label_field">
+						<input type="text" class="form-control name" name="name" required="" id="reg_input_text" />
+						<label for="reg_input_text" class="label_form reg_label">Your name</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input type="email" class="form-control" name="email" required=""  placeholder="Your e-mail" />
+					<span class="field label_field">
+						<input type="email" class="form-control" name="email" required="" id="reg_input_email" />
+						<label for="reg_input_email" class="label_form reg_label">Your e-mail</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field" id="s13_formm">
-						<input required="required" class="phone_call" placeholder="Your mobile phone number" type="tel" name="custom_tel" style="background-image:none;">
+					<span class="field label_field" id="s13_formm">
+						<input required="required" class="phone_call" type="tel" name="custom_tel" style="background-image:none;" id="reg_input_phone">
+						<label for="reg_input_phone" class="label_form reg_label label_form_active_tel">Your mobile phone number</label>
 					</span>
 				</div>
 				<div class="cb tc">

@@ -82,42 +82,35 @@
 			<form method="POST" class="form-inline" action="javascript:void(null);">
 				<div class="regitstration_s3__wrap">				
 					<div class="form_input">
-						<span class="field">
-							<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*Full name:" title="The minimum login length is 7 symbols. Use letters and digits only." />
+						<span class="field label_field">
+							<input class="registration_s2__input" type="text" class="form-control name" name="name" id="testimonial_input_text" required="" title="The minimum login length is 7 symbols. Use letters and digits only." />
+							<label for="testimonial_input_text" class="label_form label_form_left_5 label_form_fz_12">*Full name:</label>
 						</span>
 					</div>
-<!-- 					<div class="form_input">
-						<span class="field">
-							<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*Login:" />
-						</span>
-					</div> -->
 					<div class="form_input">
-						<span class="field">
+						<span class="field label_field">
 							<select id="country" name ="country" class="regitstration_s3__select"></select>
 						</span>
 					</div>
 					<div class="form_input">
-						<span class="field">
-							<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="Link to your video testimonial:" title="Link to your video testimonial:" />
+						<span class="field label_field">
+							<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" id="testimonial_input_link" title="Link to your video testimonial:" />
+							<label for="testimonial_input_link" class="label_form label_form_left_5 label_form_fz_12">Link to your video testimonial:</label>
 						</span>
 					</div>
 					<div class="form_input registration_s2__input_last">
-						<span class="field">
+						<span class="field label_field">
 							<input type="text" disabled class="regitstration_s3__secret_code" placeholder="W6 8HP">
-							<!-- <ul class="regitstration_s3__ul">
-								<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-music" aria-hidden="true"></i></a></li>
-								<li><a href="#">?</a></li>
-							</ul> -->
-							<input class="registration_s2__input regitstration_s3__cod form-control" type="text" name="name" required="" placeholder="*Type the code shown" title="The minimum secret answer length is 5 symbols." />
+							<input class="registration_s2__input regitstration_s3__cod form-control" type="text" name="name" required="" id="testimonial_input_code" title="The minimum secret answer length is 5 symbols." />
+							<label for="testimonial_input_code" class="label_form label_form_left_5 label_form_fz_12">*Type the code shown:</label>
 						</span>
 					</div>
 					<div class="form_input registration_s2__input_last">
-						<span class="field">
-							<textarea class="registration_s2__input testimonialstext_s2__textarea" type="text" class="form-control name" name="name" required="" placeholder="Your success story or comment:"></textarea>
+						<span class="field label_field label_field_block">
+							<textarea class="registration_s2__input testimonialstext_s2__textarea" id="testimonial_input_textarea" type="text" class="form-control name" name="name" placeholder="Your success story or comment:" required=""></textarea>
 						</span>
 					</div>
-					<span class="required_f">*Required fields</span>
+					<span class="required_f">*Required field label_fields</span>
 					<div class="clear"></div>
 					<div class="cb tc">
 						<button type="submit" class="btn btn-block registration_s2__button registration_s3__button" name="send">Submit</button>

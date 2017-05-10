@@ -44,9 +44,18 @@
 		<div class="popap" id="reqACallBack">
 			<span class="reqACallBack_span">Отправить сообщение</span>
 			<form class="reqACallBack_form">
-				<input class="reqACallBack_input" type="text" placeholder="*ФИО:">
-				<input class="reqACallBack_input" type="emai" placeholder="*E-mail:">
-				<input class="reqACallBack_input" type="text" placeholder="*Тема:">
+				<div class="label_field">
+					<input class="reqACallBack_input" id="req_input_text" type="text">
+					<label for="req_input_text" class="label_form label_field_fz_15_color_gray">*ФИО:</label>
+				</div>
+				<div class="label_field">
+					<input class="reqACallBack_input" id="req_input_email" type="emai">
+					<label for="req_input_emai" class=" label_form label_field_fz_15_color_gray">*E-mail:</label>
+				</div>
+				<div class="label_field">
+					<input class="reqACallBack_input" id="req_input_tema" type="text">
+					<label for="req_input_tema" class="label_form label_field_fz_15_color_gray">*Тема:</label>
+				</div>
 				<textarea class="reqACallBack_input reqACallBack_input--text" type="text" placeholder="*Сообщение:"></textarea>
 				<div class="reqACallBack_wrap">
 					<input class="reqACallBack_input reqACallBack_input--wrap" type="text" placeholder="W6 8HP" disabled="">

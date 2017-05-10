@@ -37,7 +37,10 @@
 			<div class="partnership2_s2__left funding_s1_left">
 				<form method="POST" class="form-inline" action="javascript:void(null);">
 					<input type="text" class="form-control name" name="name" required="" placeholder="Payment method: [bank transfer]" disabled="" />
-					<input type="number" min="7000" class="form-control" name="number" required="" placeholder="Amount (EUR):" />
+					<div class="label_field">
+						<input type="number" min="7000" class="form-control" name="number" required="" id="funding_s1_input_text" />
+						<label for="funding_s1_input_text" class="label_form funding_s1_label">Amount (EUR):</label>
+					</div>
 					<button type="submit" class="btn btn-block button" name="send">Fund Current Account</button>
 				</form>
 			</div>

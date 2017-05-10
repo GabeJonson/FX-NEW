@@ -26,48 +26,56 @@
 					<span class="registration_s2__h2">Account security</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*Full name:" />
+					<span class="field label_field">
+						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" id="reg2_input_text_2" />
+						<label for="reg2_input_text_2" class="label_form reg_label_2">*Full name:</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*Login:" title="The minimum login length is 7 symbols. Use letters and digits only." />
+					<span class="field label_field">
+						<input class="registration_s2__input" type="text" class="form-control name" id="reg2_input_text" name="name" required="" title="The minimum login length is 7 symbols. Use letters and digits only." />
+						<label for="reg2_input_text" class="label_form reg_label_2">*Login:</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="Company name:" />
+					<span class="field label_field">
+						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" id="reg2_input_company" />
+						<label for="reg2_input_company" class="label_form reg_label_2">Company name:</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*Password:" title="The minimum password length is 7 symbols. Do not use a simple password." />
+					<span class="field label_field">
+						<input class="registration_s2__input" type="text" class="form-control name" id="reg2_input_pass" name="name" required="" title="The minimum password length is 7 symbols. Do not use a simple password." />
+						<label for="reg2_input_pass" class="label_form reg_label_2">*Password:</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*E-mail:" />
+					<span class="field label_field">
+						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" id="reg2_input_email" />
+						<label for="reg2_input_email" class="label_form reg_label_2">*E-mail:</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*Repeat password:" />
+					<span class="field label_field">
+						<input class="registration_s2__input" type="text" class="form-control name" id="reg2_input_pssr" name="name" required="" />
+						<label for="reg2_input_pssr" class="label_form reg_label_2">*Repeat password:</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field registration_2_form_question">
-						<input class="registration_s2__input" id="registration_s2__input__partnership" type="text" class="form-control name" name="name" required="" placeholder="Partnership ID:"/>
+					<span class="field label_field registration_2_form_question">
+						<input class="registration_s2__input" id="registration_s2__input__partnership" type="text" class="form-control name" name="name" required=""/>
 						<span class="registration_s1__mobile2" data-title="Enter the partnership ID number of the person who told you about FX Manager. That person will receive partnership commission.">?</span>
+						<label for="registration_s2__input__partnership" class="label_form reg_label_2">Partnership ID:</label>
 					</span>
 				</div>
 				<div class="form_input" id="regitstration_s2_sms">
-					<span class="field">
-						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*SMS verification code:" title="Enter the verification code that was sent to your mobile phone via SMS." />
+					<span class="field label_field">
+						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" id="reg2_input_sms" title="Enter the verification code that was sent to your mobile phone via SMS." />
+						<label for="reg2_input_sms" class="label_form reg_label_2">*SMS verification code:</label>
 					</span>
 				</div>
 				<div class="form_input hidden" id="regitstration_s2_email">
-					<span class="field">
+					<span class="field label_field">
 						<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*E-mail verification code:" title="Enter the verification code that was sent to your E-mail." />
 					</span>
 				</div>

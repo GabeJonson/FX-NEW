@@ -380,36 +380,24 @@
 			<h2 class="h2">GET YOUR PRESENT!</h2>
 			<h3>Fill out the fields below and get “The Guide For Successful Copy Trading On Forex” absolutely <span>FREE OF CHARGE.</span></h3>
 			<form method="POST" class="form-inline form" action="javascript:void(null);">
-				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="">
-				<input type="hidden" name="admin_email" value="">
-				<input type="hidden" name="form_subject" value="">
-				<!-- END Hidden Required Fields -->
 				<div class="form_input">
-					<span class="field">
-						<input type="text" class="form-control name" name="name" required="" placeholder="Your name" />
+					<span class="field label_field">
+						<input type="text" id="input_get_text" class="form-control name" name="name" required="" />
+						<label for="input_get_text" class="label_form">Your name</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input type="email" class="form-control" name="email" required=""  placeholder="Your e-mail" />
+					<span class="field label_field">
+						<input required="required" id="input_get_tel" type="tel" name="custom_tel" class="phone_call">
+						<label for="input_get_tel" class="label_form label_form_active_tel">Your mobile phone number</label>
+					</span>
+				</div>
+				<div class="form_input">
+					<span class="field label_field">
+						<input type="email" id="input_get_email" class="form-control" name="email" required="" />
+						<label for="input_get_email" class="label_form">Your e-mail</label>
 					</span>
 				</div>				
-				<div class="form_input">
-					<span class="field">
-						<input required="required" placeholder="Your mobile phone number" type="tel" name="custom_tel" class="phone_call">
-					</span>
-				</div>
-				<!-- Просто любое дополнительное поле -->
-				<input type="hidden" name="other_data" value="" />
-				<!-- Динамическое дополнительное поле для передачи данных с кнопок по всему сайту -->
-				<input type="hidden" class="pacet" name="form_pacet" value="">
-				<!-- GET RESPONCE INPUTS -->
-				<input type="hidden" name="start_day" value=""/>
-				<!-- Если нужно отправлять и на почту и на GetResponse - указываем campaign_token --> 
-				<input type="hidden" name="campaign_token" value=""/>
-				<!-- GET RESPONCE INPUTS -->								
-				<div class="clear"></div>
 				<div class="cb tc">
 					<button type="submit" class="btn btn-block" name="send">Get The Present</button>
 				</div>
@@ -526,36 +514,24 @@
 			<h2 class="h2">TAKE A REST!</h2>
 			<h3 class="h3">Let your money work for you</h3>
 			<form method="POST" class="form-inline form" action="javascript:void(null);">
-				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="">
-				<input type="hidden" name="admin_email" value="">
-				<input type="hidden" name="form_subject" value="">
-				<!-- END Hidden Required Fields -->
 				<div class="form_input">
-					<span class="field">
-						<input type="text" class="form-control name" name="name" required="" placeholder="Your name" />
+					<span class="field label_field">
+						<input type="text" class="form-control name" id="rest_text" name="name" required="" />
+						<label for="rest_text" class="label_form">Your name</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field" id="s13_formm">
-						<input required="required" class="phone_call" placeholder="Your mobile phone number" type="tel" name="custom_tel" style="background-image:none;">
+					<span class="field label_field" id="s13_formm">
+						<input required="required" class="phone_call" id="rest_phone" type="tel" name="custom_tel" style="background-image:none;">
+						<label for="rest_phone" class="label_form label_form_active_tel">Your mobile phone number</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input type="email" class="form-control" name="email" required=""  placeholder="Your e-mail" />
+					<span class="field label_field">
+						<input id="rest_email" type="email" class="form-control" name="email" required="" />
+						<label for="rest_email" class="label_form">Your e-mail</label>
 					</span>
 				</div>
-				<!-- Просто любое дополнительное поле -->
-				<input type="hidden" name="other_data" value="" />
-				<!-- Динамическое дополнительное поле для передачи данных с кнопок по всему сайту -->
-				<input type="hidden" class="pacet" name="form_pacet" value="">
-				<!-- GET RESPONCE INPUTS -->
-				<input type="hidden" name="start_day" value=""/>
-				<!-- Если нужно отправлять и на почту и на GetResponse - указываем campaign_token --> 
-				<input type="hidden" name="campaign_token" value=""/>
-				<!-- GET RESPONCE INPUTS -->								
-				<div class="clear"></div>
 				<div class="cb tc">
 					<button type="submit" class="btn btn-block" name="send">Register FX Manager Account</button>
 				</div>

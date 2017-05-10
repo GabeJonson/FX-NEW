@@ -127,6 +127,8 @@ button:active {
   border-style: dotted !important; }
 
 @-moz-document url-prefix() {
+  input:invalid {
+    box-shadow: none !important; }
   .registration_s2__input_last {
     margin-top: -4px !important; }
   .callback_s1__left .form_input .callback_textarea {

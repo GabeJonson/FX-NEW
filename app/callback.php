@@ -21,17 +21,19 @@
 			<div class="callback_s1__left overflow_inherit">
 				<form method="POST" class="form-inline" action="javascript:void(null);">
 					<div class="form_input">
-						<span class="field">
-							<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="Your name:" />
+						<span class="field label_field">
+							<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" id="callback_input_text"/>
+							<label for="callback_input_text" class="label_form callback_label_fz_12">Your name:</label>
 						</span>
 					</div>
 					<div class="form_input" style="height: 70px">
-						<span class="field" style="overflow: inherit" id='registration_s1__form_tel'>
-							<input required="required" type="tel" name="custom_tel" class="callback_input phone_call">
+						<span class="field label_field" style="overflow: inherit" id='registration_s1__form_tel'>
+							<input required="required" type="tel" id="callback_input_tel" name="custom_tel" class="callback_input phone_call">
+							<label for="callback_input_tel" class="label_form callback_label_fz_12 label_form_active_tel label_form_active_tel_callback">Your mobile phone number</label>
 						</span>
 					</div>
 					<div class="form_input">
-						<span class="field">
+						<span class="field label_field">
 							<select class="registration_s2__input callback_select" type="text" class="form-control name" name="name" required="" />
 								<option>Preferred contact time</option>
 								<option>9:00 a.m. - 11:00 a.m.</option>
@@ -41,27 +43,24 @@
 						</span>
 					</div>
 					<div class="form_input">
-						<span class="field">
-							<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*E-mail:" />
+						<span class="field label_field">
+							<input class="registration_s2__input" type="text" class="form-control name" name="name" id="callback_input_email" required="" />
+							<label for="callback_input_email" class="label_form callback_label_fz_12">*E-mail:</label>
 						</span>
 					</div>
 					<div class="form_input">
-						<span class="field">
+						<span class="field label_field">
 							<textarea class="callback_textarea registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="Please briefly describe your question:" /></textarea>
 						</span>
 					</div>	
 					<div class="form_input registration_s2__input_last">
-						<span class="field">
-							<!-- <ul class="regitstration_s3__ul">
-								<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-music" aria-hidden="true"></i></a></li>
-								<li><a href="#">?</a></li>
-							</ul> -->
-							<input class="registration_s2__input regitstration_s3__cod form-control callbakc_input2" type="text" name="name" required="" placeholder="*Type the code shown:" title="The minimum secret answer length is 5 symbols." />
+						<span class="field label_field">
+							<input class="registration_s2__input regitstration_s3__cod form-control callbakc_input2" type="text" name="name" id="callback_input_code" required="" title="The minimum secret answer length is 5 symbols." />
+							<label for="callback_input_code" class="label_form callback_label_fz_12">*Type the code shown:</label>
 							<input type="text" disabled class="regitstration_s3__secret_code" placeholder="W6 8HP">
 						</span>
 					</div>
-					<span class="callback_s1__span_bottom">*Required fields</span>
+					<span class="callback_s1__span_bottom">*Required field label_fields</span>
 					<div class="clear"></div>
 					<div class="cb tc">
 						<button type="submit" class="btn btn-block registration_s2__button" name="send">Request</button>

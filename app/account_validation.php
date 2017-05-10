@@ -100,12 +100,30 @@
 			<p class="account_validation_s2__p">«Ваша банковская информация получена. Вы можете её просмотреть или отредактировать в разделе <a href="#" class="a a_hover">Редактировать профиль</a><a href="#" class="a a_hover">/Платёжная информация.</a>»</p>
 			<form class="account_validation_s2__form">
 				<div class="account_validation_s2__form_wrap">
-					<input type="text" placeholder="*Имя владельца счета:">
-					<input type="text" placeholder="*Адрес владельца счета">
-					<input type="text" placeholder="*Номер счета / IBAN:">
-					<input type="text" placeholder="*Название банка:">
-					<input type="text" placeholder="*Адрес банка:">
-					<input type="text" placeholder="*Банк SWIFT / BIC:">
+					<div class="label_field acc_label_field">
+						<input type="text" id="acc_text_input">
+						<label for="acc_text_input" class="label_form acc_label">*Имя владельца счета:</label>
+					</div>
+					<div class="label_field acc_label_field">
+						<input type="text" id="acc_text_input_2">
+						<label for="acc_text_input_2" class="label_form acc_label">*Адрес владельца счета</label>
+					</div>
+					<div class="label_field acc_label_field">
+						<input type="text" id="acc_text_input_3">
+						<label for="acc_text_input_3" class="label_form acc_label">*Номер счета / IBAN:</label>
+					</div>
+					<div class="label_field acc_label_field">
+						<input type="text" id="acc_text_input_4">
+						<label for="acc_text_input_4" class="label_form acc_label">*Название банка:</label>
+					</div>
+					<div class="label_field acc_label_field">
+						<input type="text" id="acc_text_input_5">
+						<label for="acc_text_input_5" class="label_form acc_label">*Адрес банка:</label>
+					</div>
+					<div class="label_field acc_label_field">
+						<input type="text" id="acc_text_input_6">
+						<label for="acc_text_input_6" class="label_form acc_label">*Банк SWIFT / BIC:</label>
+					</div>
 					<span class="account_validation_s2__form_span">*Обязательные поля</span>
 					<button class="button button_hover">Разместить информацию</button>
 				</div>
@@ -117,12 +135,16 @@
 				<p class="account_validation_s2__p">*Введите номер мобильного телефона: <span class="account_statistics_s1__table_img" data-title="Your mobile phone number helps us to maintain the security of your account. FX Manager will never share your number with any third parties. You will be sent an SMS message with a verification code that should be entered in the next step."><img class="znakvoprosa" src="img/1.png" alt="1"></span></p>
 				<form class="account_validation_s2__form2">
 					<div class="form_input">
-						<span class="field" style="overflow: inherit" id='registration_s1__form_tel'>
+						<span class="field label_field label_field_art" style="overflow: inherit" id='registration_s1__form_tel'>
 							<input required="required"  class="phone_call account_validation_s2__form2_input" type="tel" name="custom_tel">
+							<label for="phone_call account_validation_s2__form2_input" class="label_form acc_label label_form_active_tel label_left_111">Your mobile phone number</label>
 						</span>
 					</div>
 					<button class="account_validation_s2__form2_button button button_hover">Отправить код</button>
-					<input type="text" class="account_validation_s2__form2_sms" placeholder="Проверочный код из SMS:">
+					<div class="label_field acc_label_field_2">
+						<input type="text" class="account_validation_s2__form2_sms" id="acc_label_s2_form">
+						<label for="acc_label_s2_form" class="label_form acc_label">Проверочный код из SMS:</label>
+					</div>
 				</form>	
 			</div>
 			<div class="account_validation_s2__right">

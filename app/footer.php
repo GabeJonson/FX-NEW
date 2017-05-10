@@ -80,10 +80,21 @@
 			<span class="modal_login__name">Account login</span>
 			<form method="POST" class="form-inline" action="javascript:void(null);">
 				<div class="modal_login_wrap">
-					<input type="text" class="form-control name modal_login_first_i" name="name" required="" placeholder="*Login:" />
-					<input type="password" class="form-control modal_login_first_w" name="pass" required=""  placeholder="*Password:" />
-					<input type="text" placeholder="W6 8HP" disabled="">
-					<input type="text" class="form-control" name="code" required=""  placeholder="*Type the code shown:" />
+					<div class="label_field label_form_wrap">
+						<input type="text" id='modal_login_input_text' class="form-control name modal_login_first_i" name="name" required=""/>
+						<label for="modal_login_input_text" class="label_form_left_5 label_form label_form--black label_form_active">*Login:</label>
+					</div>
+					<div class="label_field label_form_wrap">
+						<input type="password" id="modal_login_input_pass" class="form-control modal_login_first_w" name="pass" required=""/>
+						<label for="modal_login_input_pass" class="label_form_left_5 label_form label_form--black label_form_active">*Password:</label>
+					</div>
+					<div class="label_field label_form_wrap">
+						<input type="text" placeholder="W6 8HP" disabled="">
+					</div>
+					<div class="label_field label_form_wrap">
+						<input type="text" id="modal_login_input_code" class="form-control" name="code" required=""/>
+						<label for="modal_login_input_code" class="label_form_left_5 label_form label_form--black label_form_active">*Type the code shown:</label>
+					</div>
 				</div>
 				<div class="form_input soc_seti_span">
 					<span class="registration_s2__span3 popap_registration_s2">*Required fields</span>
@@ -99,11 +110,14 @@
 		<div class="popap" id="calllBack">
 			<span class="calllBack_h2">Обратный звонок</span>
 			<form class="callback_form">
-				<span class="calllBack_name calllBack_span">*Имя:</span>
-				<input type="text" required="" class="calllBack_input">
-
-				<span class="calllBack_phone calllBack_span">*Телефон:</span>
-				<input type="phone" required="" class="calllBack_input--phone calllBack_input phone_call">
+				<div class="label_field">
+					<input type="text" required="" class="calllBack_input" id="calllBack_text_input">
+					<label for="calllBack_text_input" class="label_form label_form--black label_form_left_5 label_form_active">*Имя:</label>
+				</div>
+				<div class="label_field">
+					<input type="phone" required="" id="calllBack_phone_input" class="calllBack_input--phone calllBack_input phone_call">
+					<label for="calllBack_phone_input" class="label_form label_form--black label_form_active label_form_active_tel">*Телефон:</label>
+				</div>
 
 				<span class="calllBack_span calllBack_span--last">*Обязательные поля</span>
 

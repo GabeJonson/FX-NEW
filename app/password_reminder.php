@@ -22,24 +22,22 @@
 				<form method="POST" class="form-inline" action="javascript:void(null);">
 					<div class="regitstration_s3__wrap">
 						<div class="form_input">
-							<span class="field">
-								<input class="registration_s2__input" type="text" class="form-control name" name="name" required="" placeholder="*Login:" />
+							<span class="field label_field label_field_block">
+								<input class="registration_s2__input" id="passremin_input_text" type="text" class="form-control name" name="name" required="" />
+								<label for="passremin_input_text" class="label_form reg_label_2">*Login:</label>
 							</span>
 						</div>
 						<div class="form_input">
-							<span class="field">
-								<input class="registration_s2__input" type="email" class="form-control name" name="name" required="" placeholder="*E-mail:" />
+							<span class="field label_field label_field_block">
+								<input class="registration_s2__input" id="passremin_input_email" type="email" class="form-control name" name="name" required="" />
+								<label for="passremin_input_email" class="label_form reg_label_2">*E-mail:</label>
 							</span>
 						</div>
 						<div class="form_input registration_s2__input_last">
-							<span class="field">
+							<span class="field label_field label_field_block">
 								<input type="text" disabled class="regitstration_s3__secret_code" placeholder="W6 8HP">
-								<!-- <ul class="regitstration_s3__ul">
-									<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-music" aria-hidden="true"></i></a></li>
-									<li><a href="#">?</a></li>
-								</ul> -->
-								<input class="registration_s2__input regitstration_s3__cod form-control" type="text" name="name" required="" placeholder="*Type the code shown:" title="The minimum secret answer length is 5 symbols." />
+								<input class="registration_s2__input regitstration_s3__cod form-control" type="text" name="name" required="" title="The minimum secret answer length is 5 symbols." id="passremin_input_code" />
+								<label for="passremin_input_code" class="label_form reg_label_2">*Type the code shown:</label>
 							</span>
 						</div>
 					<div class="clear"></div>
