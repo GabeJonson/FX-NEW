@@ -761,6 +761,8 @@
       color: #9c4baa; }
   #s10 form {
     margin-top: 51px; }
+  #s10 .form input[type=tel] {
+    background-image: none; }
   #s10 .mouse_form {
     display: block; }
     #s10 .mouse_form img {
@@ -2579,7 +2581,7 @@ footer {
   text-align: center;
   float: left;
   margin-left: 127px;
-  margin-top: 126px; }
+  margin-top: 7px; }
   .f_articles__right .f_articles__form {
     margin-bottom: 48px; }
     .f_articles__right .f_articles__form input {
@@ -3419,6 +3421,8 @@ footer {
   padding-top: 92px;
   padding-left: 3px;
   padding-bottom: 100px; }
+  #regitstration_s2 .field {
+    float: left; }
   #regitstration_s2 form {
     overflow: hidden; }
   #regitstration_s2 form .form_input .field .allert {
@@ -3712,12 +3716,15 @@ footer {
 .posadka #s14 {
   display: block !important; }
 
+.posadka .field {
+  float: left; }
+
 #posadka_s1 {
   background-image: url(../img/posadka/bg.jpg);
   background-repeat: no-repeat;
   background-position: center top;
-  padding-top: 169px;
-  padding-bottom: 152px;
+  padding-top: 147px;
+  padding-bottom: 34px;
   position: relative;
   background-size: cover; }
   #posadka_s1 .wrapper {
@@ -3821,7 +3828,7 @@ footer {
 
 #posadka_s3 {
   padding-top: 79px;
-  padding-bottom: 100px;
+  padding-bottom: 103px;
   background-image: url(../img/posadka/bg2.jpg);
   background-repeat: no-repeat;
   background-position: center top;
@@ -3902,6 +3909,9 @@ footer {
 #posadka2 .posadka_s2__h2__last:after {
   display: none; }
 
+#posadka2 .field {
+  float: left; }
+
 #posadka2 .posadka_s2__h4 {
   color: #000000;
   font-family: Roboto;
@@ -3932,7 +3942,7 @@ footer {
   max-width: 716px; }
 
 #posadka2 .posadka_s3__button {
-  margin-top: 19px; }
+  margin-top: 78px; }
 
 #partnership2_s1 {
   padding-top: 75px;
@@ -4143,7 +4153,7 @@ footer {
     width: 283px !important;
     float: left; }
   #passwordreminder_s1 .regitstration_s3__secret_code {
-    width: 286px;
+    width: 287px;
     height: 70px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -4253,7 +4263,7 @@ footer {
   #passwordreminder_s1 .registration_s3__button {
     float: right;
     margin-top: 16px;
-    width: 255px;
+    width: 286px;
     height: 70px;
     border: 1px solid #929292;
     color: #929292;
@@ -4286,6 +4296,8 @@ footer {
   width: 570px;
   float: left;
   margin-left: 20px; }
+  .passwordreminder_s1__left .registration_s2__input_last {
+    margin-top: 0; }
 
 .passwordreminder_s1__right {
   float: left;
@@ -6213,6 +6225,13 @@ footer {
     float: left !important;
     width: 50% !important;
     display: block !important; }
+
+.registration_header_span {
+  font-size: 40px; }
+
+.registration_section {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important; }
 
 .fa-warning:before, .fa-exclamation-triangle:before {
   content: "\f071";

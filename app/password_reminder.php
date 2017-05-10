@@ -34,12 +34,12 @@
 						<div class="form_input registration_s2__input_last">
 							<span class="field">
 								<input type="text" disabled class="regitstration_s3__secret_code" placeholder="W6 8HP">
-								<ul class="regitstration_s3__ul">
+								<!-- <ul class="regitstration_s3__ul">
 									<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-music" aria-hidden="true"></i></a></li>
 									<li><a href="#">?</a></li>
-								</ul>
-								<input class="registration_s2__input regitstration_s3__cod form-control" type="text" name="name" required="" placeholder="*Enter the code from the image" title="The minimum secret answer length is 5 symbols." />
+								</ul> -->
+								<input class="registration_s2__input regitstration_s3__cod form-control" type="text" name="name" required="" placeholder="*Type the code shown:" title="The minimum secret answer length is 5 symbols." />
 							</span>
 						</div>
 					<div class="clear"></div>

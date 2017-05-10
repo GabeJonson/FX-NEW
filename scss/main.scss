@@ -873,6 +873,9 @@
   form{
     margin-top: 51px;
   }
+  .form input[type=tel]{
+    background-image: none;
+  }
   .mouse_form{
     display: block;
     img{
@@ -2926,7 +2929,7 @@ footer{
   text-align: center;
   float: left;
   margin-left: 127px;
-  margin-top: 126px;
+  margin-top: 7px;
   .f_articles__form{
     margin-bottom: 48px;
     input{
@@ -3848,6 +3851,9 @@ footer{
   padding-top: 92px;
   padding-left: 3px;
   padding-bottom: 100px;
+  .field{
+    float: left;
+  }
   form{
     overflow: hidden;
   }
@@ -4154,14 +4160,17 @@ footer{
   #s14{
     display: block !important;
   }
+  .field{
+    float: left;
+  }
 }
 
 #posadka_s1{
   background-image: url(../img/posadka/bg.jpg);
   background-repeat: no-repeat;
   background-position: center top;
-  padding-top: 169px;
-  padding-bottom: 152px;
+  padding-top: 147px;
+  padding-bottom: 34px;
   position: relative;
   background-size: cover;
   .wrapper{
@@ -4278,7 +4287,7 @@ footer{
 
 #posadka_s3{
   padding-top: 79px;
-  padding-bottom: 100px;
+  padding-bottom: 103px;
   background-image: url(../img/posadka/bg2.jpg);
   background-repeat: no-repeat;
   background-position: center top;
@@ -4355,6 +4364,9 @@ footer{
       display: none;
     }
   }
+  .field{
+    float: left;
+  }
   .posadka_s2__h4{
     color: #000000;
     font-family: Roboto;
@@ -4386,7 +4398,7 @@ footer{
     max-width: 716px;
   }
   .posadka_s3__button{
-    margin-top: 19px;
+    margin-top: 78px;
   }
 }
 
@@ -4649,7 +4661,7 @@ footer{
 
   }
   .regitstration_s3__secret_code{
-    width: 286px;
+    width: 287px;
     height: 70px;
     box-sizing: border-box;
     display: block;
@@ -4751,7 +4763,7 @@ footer{
   .registration_s3__button{
     float: right;
     margin-top: 16px;
-    width: 255px;
+    width: 286px;
     height: 70px;
     border: 1px solid #929292;
     color: #929292;
@@ -4789,6 +4801,9 @@ footer{
   width: 570px;
   float: left;
   margin-left: 20px;
+  .registration_s2__input_last{
+    margin-top: 0;
+  }
 }
 .passwordreminder_s1__right{
   float: left;
@@ -6865,6 +6880,14 @@ footer{
             display: block !important;
           }
         }
+
+.registration_header_span{
+  font-size: 40px;
+}
+.registration_section{
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
 
 
 //ALWAYS END

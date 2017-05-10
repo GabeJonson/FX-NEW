@@ -12,8 +12,8 @@
 <?php include "header.php"; ?>
 	</header>
 
-	<section id="header2" style="background-image: url(img/registration/bg.jpg)">
-		<h2>registration</h2>
+	<section id="header2" class="registration_section" style="background-image: url(img/registration/bg.jpg)">
+		<h2>registration<br><span class="registration_header_span">STEP 1 OF 2</span></h2>
 	</section>
 
 	<section id="regitstration_s1" class="pad">

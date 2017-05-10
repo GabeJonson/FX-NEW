@@ -12,7 +12,34 @@
 <?php include "header.php"; ?>
 	</header>
 
-	<section id="posadka_s1" class="pad">
+	<section id="posadka_s1" class="pad" style="background-image: url(img/posadka/<?php
+	$posadka_s1 = rand(1, 8);
+	switch ($posadka_s1) {
+		case 1:
+			echo "bg";
+		break;
+		case 2:
+			echo "bg_s2";
+		break;
+		case 3:
+			echo "bg_s3";
+		break;
+		case 4:
+			echo "bg_s4";
+		break;
+		case 5:
+			echo "bg_s5";
+		break;
+		case 6:
+			echo "bg_s6";
+		break;
+		case 7:
+			echo "bg_s7";
+		break;
+		case 8:
+			echo "bg_s8";
+		break;
+}?>.jpg);">
 		<div class="wrapper">
 			<span class="posadka_s1__h1">INVEST AND WATCH YOUR <span>MONEY GROWING</span></span>
 			<span class="posadka_s1__h2">Fill out the fields below and get “The Guide For Successful Copy Trading On Forex” absolutely FREE OF CHARGE</span>

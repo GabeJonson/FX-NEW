@@ -22,9 +22,9 @@
 				<div class="wrap">
 					<h2 class="f_articles__h2">What Is Forex?</h2>
 					<!-- <span class="f_articles__span first">Author: webdoone, 10.09.2016</span> -->
-					<span class="f_articles__span two">0 Comments</span>
-					<span class="f_articles__span three">63 Views</span>
-					<img src="img/f_articles/1.png" alt="1" class="f_articles__img">
+					<!-- <span class="f_articles__span two">0 Comments</span> -->
+					<!-- <span class="f_articles__span three">63 Views</span> -->
+					<!-- <img src="img/f_articles/1.png" alt="1" class="f_articles__img"> -->
 					<p class="f_articles__p">
 						The foreign exchange market (also known as Forex or FX) is a global market for currency trading. The Forex market is the largest and most liquid market in the world, with average traded values that can be trillions of dollars per day.
 						<br><br>
@@ -74,7 +74,7 @@
 					<li><a href="#">Название статьи</a></li>
 					<li><a href="#">Название статьи</a></li>
 				</ul>
-				<ol>
+				<!-- <ol>
 					<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
@@ -83,7 +83,7 @@
 					<li><a href="#" target="_blank"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
 					<li><a href="#" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 					<li><a href="#" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
-				</ol>
+				</ol> -->
 			</div>
 		</div>
 	</section>

@@ -27,7 +27,7 @@
 					<li class="after"><a href="profit_history.php">PROFIT HISTORY</a></li>
 					<li class="after"><a href="faq.php">FAQ</a></li>
 					<li class="after"><a href="testimonials.php">VIDEO TESTIMONIALS</a></li>
-					<li class="after"><a href="testimonials_text.php">TEXTIMONIALS</a></li>
+					<li class="after"><a href="testimonials_text.php">TEXT TESTIMONIALS</a></li>
 					<li class="after"><a href="news_room.php">COMPANY NEWS</a></li>
 					<li class="after"><a href="forex_news.php">FOREX NEWS</a></li>
 					<li class="after last"><a href="contacts.php">CONTACTS</a></li>
