@@ -50,18 +50,21 @@
 				<input type="hidden" name="form_subject" value="">
 				<!-- END Hidden Required Fields -->
 				<div class="form_input">
-					<span class="field">
-						<input type="text" class="form-control name" name="name" required="" placeholder="Your name" />
+					<span class="field label_field">
+						<input type="text" class="form-control name" name="name" required="" id="mini_landing_text_1" />
+						<label for="mini_landing_text_1" class="label_form">Your name</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field">
-						<input type="email" class="form-control" name="email" required=""  placeholder="Your e-mail" />
+					<span class="field label_field">
+						<input type="email" id="mini_landing_text_2" class="form-control" name="email" required=""/>
+						<label for="mini_landing_text_2" class="label_form">Your e-mail</label>
 					</span>
 				</div>
 				<div class="form_input">
-					<span class="field" style="overflow: inherit" id='registration_s1__form_tel'>
-						<input required="required" class="phone_call" type="tel" name="custom_tel">
+					<span class="field label_field" style="overflow: inherit" id='registration_s1__form_tel'>
+						<input required="required" id="mini_landing_text_3" class="phone_call" type="tel" name="custom_tel">
+						<label for="mini_landing_text_3" class="label_form label_form_active_tel label_form_active_tel_callBack">Your mobile phone number</label>
 					</span>
 				</div>	
 				<!-- Просто любое дополнительное поле -->

@@ -42,7 +42,7 @@
 
 	<div class="hidden">
 		<div class="popap" id="reqACallBack">
-			<span class="reqACallBack_span">Отправить сообщение</span>
+			<span class="reqACallBack_span">Send a message</span>
 			<form class="reqACallBack_form">
 				<div class="label_field">
 					<input class="reqACallBack_input" id="req_input_text" type="text">
@@ -58,8 +58,11 @@
 				</div>
 				<textarea class="reqACallBack_input reqACallBack_input--text" type="text" placeholder="*Message:"></textarea>
 				<div class="reqACallBack_wrap">
+					<div class="label_field label_field_contacts_bottom">
+						<input id="req_input_tema_11" class="reqACallBack_input reqACallBack_input--wrap" type="text">
+						<label for="req_input_tema_11" class="label_form label_field_fz_15_color_gray">*Type the code shown:</label>
+					</div>
 					<input class="reqACallBack_input reqACallBack_input--wrap" type="text" placeholder="W6 8HP" disabled="">
-					<input class="reqACallBack_input reqACallBack_input--wrap" type="text" placeholder="*Type the code shown:">
 				</div>
 				<span class="reqACallBack_spanBottom">*Required fields</span>
 				<button class="reqACallBack_button">Submit A Ticket</button>

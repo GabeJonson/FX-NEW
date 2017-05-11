@@ -1337,7 +1337,11 @@ footer {
         font-weight: 700;
         line-height: 27px;
         border-bottom: 1px solid #fff;
-        letter-spacing: 0.001em; }
+        letter-spacing: 0.001em;
+        -webkit-transition: border .4s ease;
+        transition: border .4s ease; }
+        #newsroom .header2_big ul li a:hover, #testimonials .header2_big ul li a:hover {
+          border-bottom: 4px solid #9c4baa; }
       #newsroom .header2_big ul li .active, #testimonials .header2_big ul li .active {
         border-bottom: 4px solid #9c4baa; }
 
@@ -6364,6 +6368,15 @@ footer {
 .label_form_active_tel_callBack {
   left: 54px; }
 
+.label_field_contacts_bottom {
+  width: 50%;
+  float: left; }
+  .label_field_contacts_bottom input {
+    width: 100%; }
+  .label_field_contacts_bottom label {
+    top: 22px;
+    left: 20px; }
+
 .fa-warning:before, .fa-exclamation-triangle:before {
   content: "\f071";
   font-family: FontAwesome; }
@@ -7881,6 +7894,9 @@ footer {
   #calllBack {
     width: 400px;
     text-align: center; }
+    #calllBack .label_field {
+      max-width: 300px;
+      margin: 0 auto; }
   .calllBack_span {
     text-align: center; }
   .callback_form {
@@ -7990,7 +8006,7 @@ footer {
 @media only screen and (max-width: 480px) {
   #calllBack {
     width: 315px; }
-  .calllBack_input, .calllBack_button, #calllBack .intl-tel-input {
+  .calllBack_input, .calllBack_button, #calllBack .intl-tel-input, #calllBack .label_field {
     width: 280px; }
   header .slick a {
     max-width: 300px; }

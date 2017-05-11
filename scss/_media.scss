@@ -1996,6 +1996,10 @@
 	#calllBack{
 		width: 400px;
 		text-align: center;
+		.label_field{
+			max-width: 300px;
+			margin: 0 auto;
+		}
 	}
 	.calllBack_span{
 		text-align: center;
@@ -2160,7 +2164,7 @@
 	#calllBack{
 		width: 315px;
 	}
-	.calllBack_input,.calllBack_button,#calllBack .intl-tel-input{
+	.calllBack_input,.calllBack_button,#calllBack .intl-tel-input, #calllBack .label_field{
 		width: 280px;
 	}
 	header .slick a{

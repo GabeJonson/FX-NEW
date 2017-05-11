@@ -1523,6 +1523,10 @@ footer{
         line-height: 27px;
         border-bottom: 1px solid #fff;
         letter-spacing: 0.001em;
+        transition: border .4s ease;
+        &:hover{
+          border-bottom: 4px solid #9c4baa;
+        }
       }
       .active{
         border-bottom: 4px solid #9c4baa;
@@ -7020,6 +7024,17 @@ footer{
 }
 .label_form_active_tel_callBack{
   left: 54px;
+}
+.label_field_contacts_bottom{
+  width: 50%;
+  float: left;
+  input{
+    width: 100%;
+  }
+  label{
+    top: 22px;
+    left: 20px;
+  }
 }
 
 //ALWAYS END
