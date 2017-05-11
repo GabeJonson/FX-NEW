@@ -46,7 +46,7 @@
 			<form class="reqACallBack_form">
 				<div class="label_field">
 					<input class="reqACallBack_input" id="req_input_text" type="text">
-					<label for="req_input_text" class="label_form label_field_fz_15_color_gray">*ФИО:</label>
+					<label for="req_input_text" class="label_form label_field_fz_15_color_gray">*Full name:</label>
 				</div>
 				<div class="label_field">
 					<input class="reqACallBack_input" id="req_input_email" type="emai">
@@ -54,19 +54,19 @@
 				</div>
 				<div class="label_field">
 					<input class="reqACallBack_input" id="req_input_tema" type="text">
-					<label for="req_input_tema" class="label_form label_field_fz_15_color_gray">*Тема:</label>
+					<label for="req_input_tema" class="label_form label_field_fz_15_color_gray">*Subject:</label>
 				</div>
-				<textarea class="reqACallBack_input reqACallBack_input--text" type="text" placeholder="*Сообщение:"></textarea>
+				<textarea class="reqACallBack_input reqACallBack_input--text" type="text" placeholder="*Message:"></textarea>
 				<div class="reqACallBack_wrap">
 					<input class="reqACallBack_input reqACallBack_input--wrap" type="text" placeholder="W6 8HP" disabled="">
-					<input class="reqACallBack_input reqACallBack_input--wrap" type="text" placeholder="Введите код с картинки">
+					<input class="reqACallBack_input reqACallBack_input--wrap" type="text" placeholder="*Type the code shown:">
 				</div>
-				<span class="reqACallBack_spanBottom">*Обязательные поля</span>
-				<button class="reqACallBack_button">Заказать обратный звонок</button>
+				<span class="reqACallBack_spanBottom">*Required fields</span>
+				<button class="reqACallBack_button">Submit A Ticket</button>
 			</form>
 		</div>
 		<div id="reqACallBackThanks" class="popap">
-			<span class="calllBackThanks_span">Ваше сообщение<br> было успешно получено</span>
+			<span class="calllBackThanks_span">Your ticket<br> was successfully submitted.</span>
 		</div>
 	</div>
 

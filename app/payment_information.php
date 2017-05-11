@@ -51,22 +51,52 @@
 			<form class="account_validation_s2__form">
 				<span class="account_validation_s2__h1_cap">Информация о банковском счете:</span>
 				<div class="account_validation_s2__form_wrap">
-					<input type="text" placeholder="Имя владельца счета:">
-					<input type="text" placeholder="Адрес владельца счета">
-					<input type="text" placeholder="Номер счета / IBAN:">
-					<input type="text" placeholder="Название банка:">
-					<input type="text" placeholder="Адрес банка:">
-					<input type="text" placeholder="Банк SWIFT / BIC:">
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_text">
+						<label for="pay_input_text" class="label_form label_field_pay">Имя владельца счета:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_schet">
+						<label for="pay_input_schet" class="label_form label_field_pay">Адрес владельца счета:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_IBAN">
+						<label for="pay_input_IBAN" class="label_form label_field_pay">Номер счета / IBAN:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_bank">
+						<label for="pay_input_bank" class="label_form label_field_pay">Название банка:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_bank_address">
+						<label for="pay_input_bank_address" class="label_form label_field_pay">Адрес банка:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_bank_SWIFT">
+						<label for="pay_input_bank_SWIFT" class="label_form label_field_pay">Банк SWIFT / BIC:</label>
+					</div>
 				</div>
 				<span class="account_validation_s2__h1_cap">E-валютные счета:</span>
 				<div class="account_validation_s2__form_wrap">
-					<input type="text" placeholder="Текущий Bitcoin счета:">
-					<input type="text" placeholder="Новый Bitcoin счета:">
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_bank_Bitcoin">
+						<label for="pay_input_bank_Bitcoin" class="label_form label_field_pay">Текущий Bitcoin счета:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_bank_Bitcoin_new">
+						<label for="pay_input_bank_Bitcoin_new" class="label_form label_field_pay">Новый Bitcoin счета:</label>
+					</div>
 				</div>
 				<span class="account_validation_s2__h1_cap">Информационная безопасность:</span>
 				<div class="account_validation_s2__form_wrap">
-					<input type="text" placeholder="*Секретный вопрос:">
-					<input type="text" placeholder="*Секретный ответ:">
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_bank_secret">
+						<label for="pay_input_bank_secret" class="label_form label_field_pay">*Секретный вопрос:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pay_input_bank_secret_answear">
+						<label for="pay_input_bank_secret_answear" class="label_form label_field_pay">*Секретный ответ:</label>
+					</div>
 					<span class="account_validation_s2__form_span">*Обязательные поля</span>
 					<button class="button button_hover">Изменить профиль</button>
 				</div>

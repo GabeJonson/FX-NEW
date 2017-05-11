@@ -6348,6 +6348,22 @@ footer {
 .label_field_art {
   display: block; }
 
+.label_field_payment {
+  float: left;
+  width: 100%;
+  max-width: 584px; }
+
+.label_field_pay {
+  font-size: 12px;
+  color: #929292;
+  left: 10px; }
+
+.pers_tel_pay_info {
+  left: 54px; }
+
+.label_form_active_tel_callBack {
+  left: 54px; }
+
 .fa-warning:before, .fa-exclamation-triangle:before {
   content: "\f071";
   font-family: FontAwesome; }

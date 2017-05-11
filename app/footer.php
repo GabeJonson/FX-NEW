@@ -108,24 +108,24 @@
 		</div>
 
 		<div class="popap" id="calllBack">
-			<span class="calllBack_h2">Обратный звонок</span>
+			<span class="calllBack_h2">REQUEST A CALLBACK</span>
 			<form class="callback_form">
 				<div class="label_field">
 					<input type="text" required="" class="calllBack_input" id="calllBack_text_input">
-					<label for="calllBack_text_input" class="label_form label_form--black label_form_left_5 label_form_active">*Имя:</label>
+					<label for="calllBack_text_input" class="label_form label_form--black label_form_left_5 label_form_active">*Your name:</label>
 				</div>
 				<div class="label_field">
 					<input type="phone" required="" id="calllBack_phone_input" class="calllBack_input--phone calllBack_input phone_call">
-					<label for="calllBack_phone_input" class="label_form label_form--black label_form_active label_form_active_tel">*Телефон:</label>
+					<label for="calllBack_phone_input" class="label_form label_form--black label_form_active label_form_active_tel label_form_active_tel_callBack">*Phone number:</label>
 				</div>
 
-				<span class="calllBack_span calllBack_span--last">*Обязательные поля</span>
+				<span class="calllBack_span calllBack_span--last">*Required fields</span>
 
-				<button class="calllBack_button">Заказать обратный звонок</button>
+				<button class="calllBack_button">REQUEST A CALLBACK</button>
 			</form>
 		</div>
 
 		<div id="calllBackThanks" class="popap">
-			<span class="calllBackThanks_span">Спасибо за заявку!<br> С вами свяжутся<br> в ближайшее время</span>
+			<span class="calllBackThanks_span">Your ticket<br> was successfully submitted.</span>
 		</div>
 	</div>

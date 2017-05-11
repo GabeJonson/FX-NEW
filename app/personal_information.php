@@ -51,31 +51,66 @@
 			<form class="account_validation_s2__form">
 				<span class="account_validation_s2__h1_cap">Информация о банковском счете:</span>
 				<div class="account_validation_s2__form_wrap overflow_inherit">
-					<input type="text" placeholder="ФИО:">
-					<input type="text" placeholder="Почтовый индекс:">
-					<input type="text" placeholder="Название компании: (если счёт корпоративный)">
-					<input type="text" placeholder="Номер наземного телефона:">
-					<input type="text" placeholder="Адрес вебсайта: (если счёт корпоративный)">
-					<span class="field" style="overflow: inherit" id='registration_s1__form_tel'>
-						<input required="required" class="phone_call account_validation_s2__form2_input" type="tel" name="custom_tel">
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text">
+						<label for="pers_input_text" class="label_form label_field_pay">ФИО:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_2">
+						<label for="pers_input_text_2" class="label_form label_field_pay">Почтовый индекс:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_3">
+						<label for="pers_input_text_3" class="label_form label_field_pay">Название компании: (если счёт корпоративный)</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_4">
+						<label for="pers_input_text_4" class="label_form label_field_pay">Номер наземного телефона:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_5">
+						<label for="pers_input_text_5" class="label_form label_field_pay">Адрес вебсайта: (если счёт корпоративный)</label>
+					</div>
+					<span class="field label_field label_field_payment" style="overflow: inherit" id='registration_s1__form_tel'>
+						<input required="required" id="pers_input_text_51" class="phone_call account_validation_s2__form2_input" type="tel" name="custom_tel">
+						<label for="pers_input_text_51" class="label_form_active_tel label_form label_field_pay pers_tel_pay_info">Your mobile phone number</label>
 					</span>
-					<input type="text" placeholder="Город:" class="account_validation_s2__input_top">
-					<input type="text" placeholder="E-mail:" class="account_validation_s2__input_top">
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_6" class="account_validation_s2__input_top">
+						<label for="pers_input_text_6" class="label_form label_field_pay">Город:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_7" class="account_validation_s2__input_top">
+						<label for="pers_input_text_7" class="label_form label_field_pay">E-mail:</label>
+					</div>
 				</div>
 				<span class="account_validation_s2__h1_cap">Смена пароля:</span>
 				<div class="account_validation_s2__form_wrap">
-					<input type="text" placeholder="Новый пароль:">
-					<input type="text" placeholder="Повторите новый пароль:">
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_8">
+						<label for="pers_input_text_8" class="label_form label_field_pay">Новый пароль:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_9">
+						<label for="pers_input_text_9" class="label_form label_field_pay">Повторите новый пароль:</label>
+					</div>
 				</div>
 				<span class="account_validation_s2__h1_cap">Финансовые отчеты по E-Mail:</span>
-				<div class="account_validation_s2__form_wrap">
-					<input type="checkbox" placeholder="Текущий Bitcoin счета:" id="personal_information_input_check" class="account_validation_s2__input_check_mini">
+				<div class="account_validation_s2__form_wrap label_field">
+					<input type="checkbox" id="personal_information_input_check" class="account_validation_s2__input_check_mini">
 					<label for="personal_information_input_check">Я согласен получать ежемесячные и ежегодные финансовые отчеты на свой E-Mail.</label>
+					<label for="personal_information_input_check" class="label_form label_field_pay">Текущий Bitcoin счета:</label>
 				</div>
 				<span class="account_validation_s2__h1_cap">Информационная безопасность:</span>
 				<div class="account_validation_s2__form_wrap">
-					<input type="text" placeholder="*Секретный вопрос:">
-					<input type="text" placeholder="*Секретный ответ:">
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_10">
+						<label for="pers_input_text_10" class="label_form label_field_pay">*Секретный вопрос:</label>
+					</div>
+					<div class="label_field label_field_payment">
+						<input type="text" id="pers_input_text_11">
+						<label for="pers_input_text_11" class="label_form label_field_pay">*Секретный ответ:</label>
+					</div>
 					<span class="account_validation_s2__form_span">*Обязательные поля</span>
 					<button class="button button_hover">Изменить профиль</button>
 				</div>

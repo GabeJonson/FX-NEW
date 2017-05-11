@@ -389,7 +389,7 @@
 				<div class="form_input">
 					<span class="field label_field">
 						<input required="required" id="input_get_tel" type="tel" name="custom_tel" class="phone_call">
-						<label for="input_get_tel" class="label_form label_form_active_tel">Your mobile phone number</label>
+						<label for="input_get_tel" class="label_form label_form_active_tel label_form_active_tel_callBack">Your mobile phone number</label>
 					</span>
 				</div>
 				<div class="form_input">
@@ -523,7 +523,7 @@
 				<div class="form_input">
 					<span class="field label_field" id="s13_formm">
 						<input required="required" class="phone_call" id="rest_phone" type="tel" name="custom_tel" style="background-image:none;">
-						<label for="rest_phone" class="label_form label_form_active_tel">Your mobile phone number</label>
+						<label for="rest_phone" class="label_form label_form_active_tel label_form_active_tel_callBack">Your mobile phone number</label>
 					</span>
 				</div>
 				<div class="form_input">
