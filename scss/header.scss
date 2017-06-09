@@ -512,7 +512,7 @@ header{
 	.slick{
 		text-align: center;
 		position: relative;
-		.w1,.w2,.w3,.w4,.w5,.w6,.w7{
+		.w1,.w2,.w3,.w4,.w5,.w6,.w7,.w8,.w9{
 			background-repeat: no-repeat;
 			background-position: center top;
 			background-size: cover;
@@ -523,25 +523,33 @@ header{
 			}
 		}
 		.w1{
-			background-image: url(../img/header/w1.png);
+			background-image: url(../img/header/slider/1.jpg);
 		}
 		.w2{
-			background-image: url(../img/header/slider/w2.png);
+			background-image: url(../img/header/slider/2.jpg);
 		}
 		.w3{
-			background-image: url(../img/header/slider/w3.png);
+			background-image: url(../img/header/slider/3.jpg);
 		}
 		.w4{
-			background-image: url(../img/header/slider/w4.png);
+			background-image: url(../img/header/slider/4.jpg);
+			padding-top: 192px;
+			padding-bottom: 160px;
 		}
 		.w5{
-			background-image: url(../img/header/slider/w5.png);
+			background-image: url(../img/header/slider/5.jpg);
 		}
 		.w6{
-			background-image: url(../img/header/slider/w6.png);
+			background-image: url(../img/header/slider/6.jpg);
 		}
 		.w7{
-			background-image: url(../img/header/slider/w7.png);
+			background-image: url(../img/header/slider/7.jpg);
+		}
+		.w8{
+			background-image: url(../img/header/slider/8.jpg);
+		}
+		.w9{
+			background-image: url(../img/header/slider/9.jpg);
 		}
 		h2{
 			color: white;

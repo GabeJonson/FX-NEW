@@ -12,7 +12,7 @@
 		<?php include "header.php"; ?>
 		<div class="slick">
 			<?php
-			$forSlick = rand(1, 7);
+			$forSlick = rand(1, 9);
 			switch ($forSlick) {
 				case 1:
 				echo "<div class='w1 div'>
@@ -76,6 +76,26 @@
 				break;
 				case 7:
 				echo "<div class='w7 div'>
+						<div class='heaer_w_wrap'>
+							<h2>Copy Forex Trades With a Successful Trading Robot</h2>
+							<h1>MULTIPLY YOUR CAPITAL<br> <span>WITH MINIMUM EFFORTS</span> WITH FX MANAGER</h1>
+							<h3>Make your first deposit today and start making money tomorrow</h3>
+							<a href='#' class='button button2'>Start Making Money With FX Manager</a>
+						</div>
+					</div>";
+				break;
+				case 8:
+				echo "<div class='w8 div'>
+						<div class='heaer_w_wrap'>
+							<h2>Copy Forex Trades With a Successful Trading Robot</h2>
+							<h1>MULTIPLY YOUR CAPITAL<br> <span>WITH MINIMUM EFFORTS</span> WITH FX MANAGER</h1>
+							<h3>Make your first deposit today and start making money tomorrow</h3>
+							<a href='#' class='button button2'>Start Making Money With FX Manager</a>
+						</div>
+					</div>";
+				break;
+				case 9:
+				echo "<div class='w9 div'>
 						<div class='heaer_w_wrap'>
 							<h2>Copy Forex Trades With a Successful Trading Robot</h2>
 							<h1>MULTIPLY YOUR CAPITAL<br> <span>WITH MINIMUM EFFORTS</span> WITH FX MANAGER</h1>

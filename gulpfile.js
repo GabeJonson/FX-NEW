@@ -20,8 +20,8 @@ gulp.task('img', function() {
 
 gulp.task('browser-sync', ['styles', 'scripts'], function() {
 		browserSync.init({
-				// proxy: "forex/app",
-				proxy: "http://localhost/Work/FX/app/",
+				proxy: "fx_new/app",
+				// proxy: "http://localhost/Work/FX/app/",
 				notify: false
 		});
 });

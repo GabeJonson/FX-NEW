@@ -409,28 +409,34 @@ header {
   header .slick {
     text-align: center;
     position: relative; }
-    header .slick .w1, header .slick .w2, header .slick .w3, header .slick .w4, header .slick .w5, header .slick .w6, header .slick .w7 {
+    header .slick .w1, header .slick .w2, header .slick .w3, header .slick .w4, header .slick .w5, header .slick .w6, header .slick .w7, header .slick .w8, header .slick .w9 {
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
       padding-top: 152px;
       padding-bottom: 200px; }
-      header .slick .w1:focus, header .slick .w2:focus, header .slick .w3:focus, header .slick .w4:focus, header .slick .w5:focus, header .slick .w6:focus, header .slick .w7:focus {
+      header .slick .w1:focus, header .slick .w2:focus, header .slick .w3:focus, header .slick .w4:focus, header .slick .w5:focus, header .slick .w6:focus, header .slick .w7:focus, header .slick .w8:focus, header .slick .w9:focus {
         outline: 0; }
     header .slick .w1 {
-      background-image: url(../img/header/w1.png); }
+      background-image: url(../img/header/slider/1.jpg); }
     header .slick .w2 {
-      background-image: url(../img/header/slider/w2.png); }
+      background-image: url(../img/header/slider/2.jpg); }
     header .slick .w3 {
-      background-image: url(../img/header/slider/w3.png); }
+      background-image: url(../img/header/slider/3.jpg); }
     header .slick .w4 {
-      background-image: url(../img/header/slider/w4.png); }
+      background-image: url(../img/header/slider/4.jpg);
+      padding-top: 192px;
+      padding-bottom: 160px; }
     header .slick .w5 {
-      background-image: url(../img/header/slider/w5.png); }
+      background-image: url(../img/header/slider/5.jpg); }
     header .slick .w6 {
-      background-image: url(../img/header/slider/w6.png); }
+      background-image: url(../img/header/slider/6.jpg); }
     header .slick .w7 {
-      background-image: url(../img/header/slider/w7.png); }
+      background-image: url(../img/header/slider/7.jpg); }
+    header .slick .w8 {
+      background-image: url(../img/header/slider/8.jpg); }
+    header .slick .w9 {
+      background-image: url(../img/header/slider/9.jpg); }
     header .slick h2 {
       color: white;
       font-family: Roboto;
