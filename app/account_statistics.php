@@ -39,10 +39,11 @@
 			</div>
 			<div class="partnership2_s2__right">
 				<div class="partnership__login">
-					<span class="partnership__tested">[tested]</span><span class=" partnership_span partnership__first"><i class="fa fa-user-o" aria-hidden="true"></i>Welcome, loginname</span>
+					<a href="#" class=" partnership_span partnership__four"><i class="fa fa-chevron-left" aria-hidden="true"></i>Logout</a>
+					<span class=" partnership_span partnership__first"><i class="fa fa-user-o" aria-hidden="true"></i>Welcome, loginname</span>
+					<span class="partnership__tested">[Validated]</span>
 					<span class=" partnership_span partnership__two"><i class="fa fa-calendar" aria-hidden="true"></i>Monday, February 15, 2016</span>
 					<span class=" partnership_span partnership__three"><i class="fa fa-clock-o" aria-hidden="true"></i>13:27:59 GMT</span>
-					<a href="#" class=" partnership_span partnership__four"><i class="fa fa-chevron-left" aria-hidden="true"></i>Logout</a>
 				</div>
 				<p class="partnership2_s2__p_right">
 					At this page you can view detailed statistics, select package type, view active and expired packages, and change currency pairs of your active packages.
@@ -55,38 +56,31 @@
 		<div class="wrapper">
 			<table class="account_statistics_s1__table">
 				<tr class="account_statistics_s1__table_caption">
-					<td class="account_statistics_s1__table_tr_first_td"></td>
-					<td>Bank transfer:</td>
-					<td>Total:</td>
+					<td>Statistics</td>
+					<td>Total (Bank Transfer)</td>
 				</tr>
 				<tr>
 					<td class="account_statistics_s1__table_tr_first account_statistics_s1__table_tr_first_big">Current Account balance: <div class="account_statistics_s1__table_img" data-title="This money does not participate in copy trading"><img class="znakvoprosa" src="img/1.png" alt="1"></div></td>
-					<td>€0.00</td>
 					<td>€0.00</td>
 				</tr>
 				<tr>
 					<td class="account_statistics_s1__table_tr_first">Deposit Account balance: <div class="account_statistics_s1__table_img" data-title="This money participates in copy trading"><img class="znakvoprosa" src="img/1.png" alt="1"></div></td>
 					<td>€0.00</td>
-					<td>€0.00</td>
 				</tr>
 				<tr>
 					<td class="account_statistics_s1__table_tr_first">Withdrawn from Current Account: </td>
-					<td>€0.00</td>
 					<td>€0.00</td>
 				</tr>
 				<tr>
 					<td class="account_statistics_s1__table_tr_first">Partnership commission:</td>
 					<td>€0.00</td>
-					<td>€0.00</td>
 				</tr>
 				<tr>
 					<td class="account_statistics_s1__table_tr_first">Bonus profit accrual to Current Account (2.5% per annum) <div class="account_statistics_s1__table_img" data-title="The bonus profit is accrued on every calendar day"><img class="znakvoprosa" src="img/1.png" alt="1"></div></td>
 					<td>€0.00</td>
-					<td>€0.00</td>
 				</tr>
 				<tr>
 					<td class="account_statistics_s1__table_tr_first">Total profit:</td>
-					<td>€0.00</td>
 					<td>€0.00</td>
 				</tr>
 			</table>
@@ -99,6 +93,7 @@
 			<table class="account_statistics_s2__table">
 				<form>
 					<tr class="account_statistics_s2__table_caption">
+						<td class='cell-with-input' width='20px'><input type="checkbox" name="id" value=""></td>
 						<td>ID:</td>
 						<td>Package type:</td>
 						<td>Amount:</td>
@@ -109,7 +104,8 @@
 						<td>Performance fee (%):</td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" name="id" value=""> 005284</td>
+						<td class='cell-with-input' width='20px'><input type="checkbox" name="id" value=""></td>
+						<td>005284</td>
 						<td>Advanced</td>
 						<td>€10000.57</td>
 						<td>€10000.57</td>
@@ -119,7 +115,8 @@
 						<td>50%</td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" name="id" value=""> 005284</td>
+						<td class='cell-with-input' width='20px'><input type="checkbox" name="id" value=""></td>
+						<td>005284</td>
 						<td>Advanced</td>
 						<td>€10000.57</td>
 						<td>€10000.57</td>
@@ -129,7 +126,8 @@
 						<td>50%</td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" name="id" value=""> 005284</td>
+						<td class='cell-with-input' width='20px'><input type="checkbox" name="id" value=""></td>
+						<td>005284</td>
 						<td>Advanced</td>
 						<td>€10000.57</td>
 						<td>€10000.57</td>
@@ -142,13 +140,13 @@
 			</table>
 			<div class="account_statistics_s2_wrap">
 				<select class="account_statistics_s2__select">
-					<option value="" selected="">eur/usd</option>
-					<option value="">gbp/usd</option>
-					<option value="">usd/chf</option>
-					<option value="">usd/jpy</option>
+					<option value="" selected="">EUR/USD</option>
+					<option value="">GPB/USD</option>
+					<option value="">USD/CHF</option>
+					<option value="">USD/JPY</option>
 				</select>
 				<button class="button button_hover account_statistics_s2__button">Change currency pair for the selected packages</button>
-				<a href="#" class="account_statistics_s2__a a button_hover">View expired packages</a>		
+				<a href="#" class="account_statistics_s2__a a button_hover">View expired packages</a>
 			</div>
 		</div>
 	</section>
@@ -215,7 +213,6 @@
 				</table>
 				<a href="registration.php" class="button button2">Create Your Package</a>
 			</div>
-			<h4>*You can create an unlimited number of packages.</h4>
 		</div>
 	</section>
 

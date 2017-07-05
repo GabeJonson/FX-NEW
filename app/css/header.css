@@ -685,3 +685,43 @@ header {
   width: 18px;
   height: 10px;
   color: #959595; }
+
+@media screen and (max-width: 1000px) {
+  header .slick .w1 {
+    background-image: url(../img/header/slider/tablet_photo/1.png); }
+  header .slick .w2 {
+    background-image: url(../img/header/slider/tablet_photo/2.png); }
+  header .slick .w3 {
+    background-image: url(../img/header/slider/tablet_photo/3.png); }
+  header .slick .w4 {
+    background-image: url(../img/header/slider/tablet_photo/4.png); }
+  header .slick .w5 {
+    background-image: url(../img/header/slider/tablet_photo/5.png); }
+  header .slick .w6 {
+    background-image: url(../img/header/slider/tablet_photo/6.png); }
+  header .slick .w7 {
+    background-image: url(../img/header/slider/tablet_photo/7.png); }
+  header .slick .w8 {
+    background-image: url(../img/header/slider/tablet_photo/8.png); }
+  header .slick .w9 {
+    background-image: url(../img/header/slider/tablet_photo/9.png); } }
+
+@media screen and (max-width: 767px) {
+  header .slick .w1 {
+    background-image: url(../img/header/slider/mobile_photo/1.png); }
+  header .slick .w2 {
+    background-image: url(../img/header/slider/mobile_photo/2.png); }
+  header .slick .w3 {
+    background-image: url(../img/header/slider/mobile_photo/3.png); }
+  header .slick .w4 {
+    background-image: url(../img/header/slider/mobile_photo/4.png); }
+  header .slick .w5 {
+    background-image: url(../img/header/slider/mobile_photo/5.png); }
+  header .slick .w6 {
+    background-image: url(../img/header/slider/mobile_photo/6.png); }
+  header .slick .w7 {
+    background-image: url(../img/header/slider/mobile_photo/7.png); }
+  header .slick .w8 {
+    background-image: url(../img/header/slider/mobile_photo/8.png); }
+  header .slick .w9 {
+    background-image: url(../img/header/slider/mobile_photo/9.png); } }

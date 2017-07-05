@@ -38,8 +38,8 @@
 				<form method="POST" class="form-inline" action="javascript:void(null);">
 					<input type="text" class="form-control name" name="name" required="" placeholder="Withdrawal method: bank transfer" disabled="" />
 					<div class="label_field">
-						<input type="text" class="form-control" name="number" required="" id="fun_current_input_text" />
-						<label for="fun_current_input_text" class="funding_s1_label label_form">Current Account balance (EUR): 0</label>
+						<input type="text" class="form-control" name="number" required="" id="fun_current_input_text" disabled />
+						<label for="fun_current_input_text" class="funding_s1_label label_form">Current Account balance (EUR): 50</label>
 					</div>
 					<div class="label_field">
 						<input type="number" min="3000" class="form-control" name="number" required="" id="fun_current_input_eur" />

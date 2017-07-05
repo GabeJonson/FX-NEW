@@ -79,7 +79,6 @@
 				</table>
 				<a href="registration.php" class="button button2">Create Your Package</a>
 			</div>
-			<h4>*You can create an unlimited number of packages.</h4>
 		</div>
 	</section>
 
