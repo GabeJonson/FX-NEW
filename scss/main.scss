@@ -6713,14 +6713,14 @@ footer{
   }
   .partnership2_s2__left{
     padding-left: 0;
-    width: 55%;
+    width: 50%;
     img{
         width: 100%;
         max-width: 694px;
       }
   }
   .partnership2_s2__right{
-    width: 45%;
+    width: 50%;
   }
   #s6{
     padding-top: 0;
@@ -7049,6 +7049,14 @@ footer{
 }
 
 .account_statistics_s2__table .account_statistics_s2__table_caption .cell-with-input { width: 20px; }
+
+#loguot-icon {
+  max-width: 10px;
+  margin-right: 5px;
+  transform: translateY(2px);
+
+  path { fill: #9c4baa; }
+}
 
 //ALWAYS END
 @import "sketches.scss";

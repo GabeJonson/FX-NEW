@@ -39,10 +39,12 @@
 			</div>
 			<div class="partnership2_s2__right">
 				<div class="partnership__login">
-					<span class="partnership__tested">[tested]</span><span class=" partnership_span partnership__first"><i class="fa fa-user-o" aria-hidden="true"></i>Welcome, loginname</span>
+					<a href="#" class=" partnership_span partnership__four">
+						<svg id="loguot-icon" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 14"><title>logout_icon</title><path d="M174.88,252.55l-2.56-2.68a.39.39,0,0,0-.56,0,.41.41,0,0,0,0,.57l1.7,1.74h-7a.42.42,0,0,0,0,.84h7.35l-2.05,2.19a.48.48,0,0,0,0,.63.39.39,0,0,0,.56,0l2.56-2.68a.44.44,0,0,0,0-.59Zm-3.5,5a.41.41,0,0,0-.4.42v0c0,.55-.39,1.16-.91,1.16h-5.19A1.25,1.25,0,0,1,163.8,258V247.61c0-.59.61-.78,1.09-.78h5.19c.5,0,.91.21.91.78v0a.4.4,0,1,0,.8,0v0a1.57,1.57,0,0,0-1.7-1.61h-5.19a1.73,1.73,0,0,0-1.89,1.61V258a2.06,2.06,0,0,0,1.89,2h5.19a1.91,1.91,0,0,0,1.7-2v0A.41.41,0,0,0,171.38,257.56Z" transform="translate(-163 -246)"/></svg>Logout</a>
+					<span class=" partnership_span partnership__first"><i class="fa fa-user-o" aria-hidden="true"></i>Welcome, loginname</span>
+					<span class="partnership__tested">[Validated]</span>
 					<span class=" partnership_span partnership__two"><i class="fa fa-calendar" aria-hidden="true"></i>Monday, February 15, 2016</span>
 					<span class=" partnership_span partnership__three"><i class="fa fa-clock-o" aria-hidden="true"></i>13:27:59 GMT</span>
-					<span class=" partnership_span partnership__four"><i class="fa fa-chevron-left" aria-hidden="true"></i>Logout</span>
 				</div>
 				<span class="partnership2_s2__h2">Как читать графики Форекс</span>
 				<p class="partnership2_s2__p_right">
@@ -82,7 +84,7 @@
 			</div>
 			<div class="live_trade_s1_right">
 				<p>
-					Каждая свечка имеет тело – это ее широкая часть. Тело свечи показывает уровень закрытия и открытия периода. 
+					Каждая свечка имеет тело – это ее широкая часть. Тело свечи показывает уровень закрытия и открытия периода.
 					<br><br>
 					Когда Open по цене выше <span>Close</span>, тело свечи заполняется фиолетовым цветом. Когда <span>Open</span> по цене ниже <span>Close</span>, тело свечи становится пустым внутри.
 					<br><br>
@@ -106,7 +108,7 @@
 				<p>
 					Японский свечной график наглядно показывает, кто именно на данный момент обладает господством на рынке Форекс, т.е. медведи или быки. Если свеча имеет пустое длинное тело, то рынок находится во власти быков, свеча с заполненным длинным телом указывает на преимущество медведей.
 					<br><br>
-					Цены закрытия белых длинных свечей (1) всегда будут превышать цены открытия. Для фиолетовых длинных свечей (2) всё наоборот – цены закрытия всегда ниже цен открытия. 
+					Цены закрытия белых длинных свечей (1) всегда будут превышать цены открытия. Для фиолетовых длинных свечей (2) всё наоборот – цены закрытия всегда ниже цен открытия.
 					<br><br>
 					Часто бывает, что цена закрытия/открытия графически совпадают, тогда образуются свечи называемые Доджи (3) (Doji candle). Такие свечи не дают на боковом тренде никаких сигналов, но если они появляются на восходящих трендах, это может быть сигналом к развороту.
 				</p>

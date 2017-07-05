@@ -6065,13 +6065,13 @@ footer {
 
 #live_trade_2 .partnership2_s2__left {
   padding-left: 0;
-  width: 55%; }
+  width: 50%; }
   #live_trade_2 .partnership2_s2__left img {
     width: 100%;
     max-width: 694px; }
 
 #live_trade_2 .partnership2_s2__right {
-  width: 45%; }
+  width: 50%; }
 
 #live_trade_2 #s6 {
   padding-top: 0;
@@ -6390,6 +6390,15 @@ footer {
 
 .account_statistics_s2__table .account_statistics_s2__table_caption .cell-with-input {
   width: 20px; }
+
+#loguot-icon {
+  max-width: 10px;
+  margin-right: 5px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px); }
+  #loguot-icon path {
+    fill: #9c4baa; }
 
 .fa-warning:before, .fa-exclamation-triangle:before {
   content: "\f071";
